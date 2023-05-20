@@ -1,6 +1,5 @@
 const fs = require('fs/promises');
-const { SlashCommandBuilder } = require('discord.js');
-const { EmbedBuilder } = require('@discordjs/builders');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
   config: new SlashCommandBuilder().setName('banners').setDescription('Show banners in HSR'),
@@ -15,10 +14,16 @@ module.exports = {
         .setTitle(`Banners`)
         .addFields(
           banners.map((banner) => {
-            return {
-              name: `${banner.name}`,
-              value: `${banner.date}`,
-            };
+            if (banner.name && banner.date)
+              return {
+                name: `${banner.name}`,
+                value: `${banner.date}`,
+              };
+            else
+              return {
+                name: `Upcoming banner`,
+                value: `Please waiting`,
+              };
           })
         )
         .setFooter({
