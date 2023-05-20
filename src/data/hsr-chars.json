@@ -1,0 +1,1601 @@
+{
+  "updateAt": "05/20/2023 6:34 PM",
+  "characters": [
+    {
+      "type": "Physical",
+      "characters": [
+        {
+          "name": "Clara",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Champion of Streetwise Boxing",
+                "Champion of Streetwise Boxing + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station",
+                "Inert Salsotto"
+              ],
+              "lightCone": [
+                "Something Irreplaceable(S1)",
+                "On the Fall of an Aeon(S5)",
+                "Nowhere to Run(S1)",
+                "A Secret Vow(S1)",
+                "Under the Blue Sky(S1)",
+                "The Moles Welcome You(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Physical DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1319"
+            },
+            {
+              "name": "ATK",
+              "detail": "737"
+            },
+            {
+              "name": "DEF",
+              "detail": "485"
+            },
+            {
+              "name": "Speed",
+              "detail": "90"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Ancient Part x 15",
+            "Ancient Spindle x 15",
+            "Broken Teeth of Iron Wolf x 66",
+            "Ancient Engine x 15"
+          ]
+        },
+        {
+          "name": "Natasha",
+          "builds": [
+            {
+              "tabName": "Pure Healer",
+              "relic": [
+                "Musketeer of Wild Wheat",
+                "Passerby of Wandering Cloud",
+                ""
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Time Waits for No One(S1)",
+                "Post-Op Conversation(S1)",
+                "Warmth Shortens Cold Nights(S5)",
+                "Shared Feeling(S1)",
+                "Cornucopia (S5)",
+                "Perfect Timing(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: HP%"
+                },
+                {
+                  "data": "Feet: Outgoing Healing"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: HP%"
+                }
+              ]
+            },
+            {
+              "tabName": "Utility",
+              "relic": [
+                "Musketeer of Wild Wheat",
+                "Passerby of Wandering Cloud",
+                ""
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Quid Pro Quo(S5)",
+                "Shared Feeling(S1)",
+                "Post-Op Conversation(S1)",
+                "Multiplication(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: HP%"
+                },
+                {
+                  "data": "Feet: Outgoing Healing"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: HP%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1164"
+            },
+            {
+              "name": "ATK",
+              "detail": "476"
+            },
+            {
+              "name": "DEF",
+              "detail": "507"
+            },
+            {
+              "name": "Speed",
+              "detail": "98"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Ancient Part x 12",
+            "Ancient Spindle x 13",
+            "Broken Teeth of Iron Wolf x 50",
+            "Ancient Engine x 12"
+          ]
+        },
+        {
+          "name": "Sushang",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Champion of Streetwise Boxing",
+                "Champion of Streetwise Boxing + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "In the Night(S1)",
+                "Sleep Like the Dead(S1)",
+                "Swordplay(S1)",
+                "Cruising in the Stellar Sea(S5)",
+                "River Flows in Spring(S5)",
+                "Only Silence Remains(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Physical DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "917"
+            },
+            {
+              "name": "ATK",
+              "detail": "564"
+            },
+            {
+              "name": "DEF",
+              "detail": "418"
+            },
+            {
+              "name": "Speed",
+              "detail": "107"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Module Machina x 12",
+            "Cogwheel Machina x 13",
+            "Broken Teeth of Iron Wolf x 50",
+            "Gyreheart Machina x 12"
+          ]
+        },
+        {
+          "name": "Trailblazer (Physical)",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Champion of Streetwise Boxing",
+                "Champion of Streetwise Boxing + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "Something Irreplaceable(S1)",
+                "On the Fall of an Aeon(S5)",
+                "Nowhere to Run(S1)",
+                "A Secret Vow(S1)",
+                "Under the Blue Sky(S1)",
+                "The Moles Welcome You(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: Physical DMG"
+                },
+                {
+                  "data": "Link Rope: ATK%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1203"
+            },
+            {
+              "name": "ATK",
+              "detail": "620"
+            },
+            {
+              "name": "DEF",
+              "detail": "460"
+            },
+            {
+              "name": "Speed",
+              "detail": "100"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Thief's Instinct x 12",
+            "Usurper's Scheme x 13",
+            "Enigmatic Ectostella x 28",
+            "Conqueror's Will x 12"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Fire",
+      "characters": [
+        {
+          "name": "Asta",
+          "builds": [],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1023"
+            },
+            {
+              "name": "ATK",
+              "detail": "511"
+            },
+            {
+              "name": "DEF",
+              "detail": "463"
+            },
+            {
+              "name": "Speed",
+              "detail": "106"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Silvermane Badge x 12",
+            "Silvermane Insignia x 13",
+            "Endotherm Chitin x 50",
+            "Silvermane Medal x 12"
+          ]
+        },
+        {
+          "name": "Himeko",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Firesmith of Lava-Forging + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "Before Dawn(S1)",
+                "Night on the Milky Way(S1)",
+                "The Seriousness of Breakfast(S5)",
+                "Today Is Another Peaceful Day(S1)",
+                "Geniuses' Repose(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Fire DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1047"
+            },
+            {
+              "name": "ATK",
+              "detail": "756"
+            },
+            {
+              "name": "DEF",
+              "detail": "436"
+            },
+            {
+              "name": "Speed",
+              "detail": "96"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Extinguished Core x 15",
+            "Glimmering Core x 15",
+            "Endotherm Chitin x 66",
+            "Squirming Core x 15"
+          ]
+        },
+        {
+          "name": "Hook",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Firesmith of Lava-Forging",
+                "Firesmith of Lava-Forging + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "On the Fall of an Aeon(S5)",
+                "Something Irreplaceable(S1)",
+                "Woof! Walk Time!(S1)",
+                "A Secret Vow(S1)",
+                "Nowhere to Run(S1)",
+                "The Moles Welcome You(S1)",
+                "Under the Blue Sky(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Fire DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1340"
+            },
+            {
+              "name": "ATK",
+              "detail": "617"
+            },
+            {
+              "name": "DEF",
+              "detail": "352"
+            },
+            {
+              "name": "Speed",
+              "detail": "94"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Ancient Part x 12",
+            "Ancient Spindle x 13",
+            "Endotherm Chitin x 50",
+            "Ancient Engine x 12"
+          ]
+        },
+        {
+          "name": "Trailblazer (Fire)",
+          "builds": [
+            {
+              "tabName": "Tanking & Utility",
+              "relic": [
+                "Knight of Purity Palace",
+                ""
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Moment of Victory(S1)",
+                "Landau's Choice(S1)",
+                "Texture of Memories(S1)",
+                "Day One of My New Life (S1)",
+                "We Are Wildfire(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: DEF%"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: DEF%"
+                },
+                {
+                  "data": "Link Rope: Energy Regen Rate"
+                }
+              ]
+            },
+            {
+              "tabName": "Shielding",
+              "relic": [
+                "Knight of Purity Palace",
+                ""
+              ],
+              "planetary": [
+                "Belobog of the Architects",
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Moment of Victory(S1)",
+                "Day One of My New Life (S1)",
+                "Trend of the Universal Market(S1)",
+                "Amber(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: DEF%"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: DEF%"
+                },
+                {
+                  "data": "Link Rope: DEF%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1241"
+            },
+            {
+              "name": "ATK",
+              "detail": "601"
+            },
+            {
+              "name": "DEF",
+              "detail": "606"
+            },
+            {
+              "name": "Speed",
+              "detail": "95"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Thief's Instinct x 12",
+            "Usurper's Scheme x 13",
+            "Enigmatic Ectostella x 28",
+            "Conqueror's Will x 12"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Ice",
+      "characters": [
+        {
+          "name": "Gepard",
+          "builds": [
+            {
+              "tabName": "Hybrid Tank",
+              "relic": [
+                "Knight of Purity Palace",
+                ""
+              ],
+              "planetary": [
+                "Belobog of the Architects",
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Moment of Victory(S1)",
+                "Landau's Choice(S1)",
+                "Day One of My New Life (S1)",
+                "Trend of the Universal Market(S1)",
+                "We Are Wildfire(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: DEF%"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: DEF%"
+                },
+                {
+                  "data": "Link Rope: Energy Regen Rate"
+                }
+              ]
+            },
+            {
+              "tabName": "Shielding",
+              "relic": [
+                "Knight of Purity Palace",
+                ""
+              ],
+              "planetary": [
+                "Belobog of the Architects",
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Moment of Victory(S1)",
+                "Day One of My New Life (S1)",
+                "Trend of the Universal Market(S1)",
+                "Amber(S5)",
+                "This Is Me!(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: DEF%"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: DEF%"
+                },
+                {
+                  "data": "Link Rope: DEF%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1397"
+            },
+            {
+              "name": "ATK",
+              "detail": "543"
+            },
+            {
+              "name": "DEF",
+              "detail": "654"
+            },
+            {
+              "name": "Speed",
+              "detail": "92"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Silvermane Badge x 15",
+            "Silvermane Insignia x 15",
+            "Horn of Snow x 66",
+            "Silvermane Medal x 15"
+          ]
+        },
+        {
+          "name": "Herta",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Hunter of Glacial Forest + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "Before Dawn(S1)",
+                "The Seriousness of Breakfast(S5)",
+                "The Birth of the Self(S1)",
+                "Night on the Milky Way(S1)",
+                "Today Is Another Peaceful Day(S1)",
+                "Geniuses' Repose(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Ice DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "952"
+            },
+            {
+              "name": "ATK",
+              "detail": "582"
+            },
+            {
+              "name": "DEF",
+              "detail": "396"
+            },
+            {
+              "name": "Speed",
+              "detail": "100"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Extinguished Core x 12",
+            "Glimmering Core x 13",
+            "Horn of Snow x 50",
+            "Squirming Core x 12"
+          ]
+        },
+        {
+          "name": "March 7th",
+          "builds": [
+            {
+              "tabName": "Shielding",
+              "relic": [
+                "Knight of Purity Palace",
+                ""
+              ],
+              "planetary": [
+                "Belobog of the Architects",
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Day One of My New Life (S1)",
+                "Trend of the Universal Market(S1)",
+                "This Is Me!(S1)",
+                "We Are Wildfire(S5)",
+                "Amber(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: Effect HIT Rate"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: DEF%"
+                },
+                {
+                  "data": "Link Rope: DEF%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1058"
+            },
+            {
+              "name": "ATK",
+              "detail": "511"
+            },
+            {
+              "name": "DEF",
+              "detail": "573"
+            },
+            {
+              "name": "Speed",
+              "detail": "101"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Thief's Instinct x 12",
+            "Usurper's Scheme x 13",
+            "Horn of Snow x 50",
+            "Conqueror's Will x 12"
+          ]
+        },
+        {
+          "name": "Pela",
+          "builds": [],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "987"
+            },
+            {
+              "name": "ATK",
+              "detail": "546"
+            },
+            {
+              "name": "DEF",
+              "detail": "463"
+            },
+            {
+              "name": "Speed",
+              "detail": "105"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Extinguished Core x 12",
+            "Glimmering Core x 13",
+            "Horn of Snow x 50",
+            "Squirming Core x 12"
+          ]
+        },
+        {
+          "name": "Yanqing",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Musketeer of Wild Wheat",
+                "Hunter of Glacial Forest + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "In the Night(S1)",
+                "Sleep Like the Dead(S1)",
+                "Swordplay(S1)",
+                "Cruising in the Stellar Sea(S5)",
+                "River Flows in Spring(S5)",
+                "Only Silence Remains(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT DMG"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Ice DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "892"
+            },
+            {
+              "name": "ATK",
+              "detail": "679"
+            },
+            {
+              "name": "DEF",
+              "detail": "412"
+            },
+            {
+              "name": "Speed",
+              "detail": "109"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Thief's Instinct x 15",
+            "Usurper's Scheme x 15",
+            "Gelid Chitin x 66",
+            "Conqueror's Will x 15"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Lightning",
+      "characters": [
+        {
+          "name": "Arlan",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Band of Sizzling Thunder",
+                ""
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "Something Irreplaceable(S1)",
+                "On the Fall of an Aeon(S5)",
+                "Nowhere to Run(S1)",
+                "A Secret Vow(S1)",
+                "Under the Blue Sky(S1)",
+                "The Moles Welcome You(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Lightning DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1199"
+            },
+            {
+              "name": "ATK",
+              "detail": "599"
+            },
+            {
+              "name": "DEF",
+              "detail": "330"
+            },
+            {
+              "name": "Speed",
+              "detail": "102"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Extinguished Core x 12",
+            "Glimmering Core x 13",
+            "Lightning Crown of the Past Shadow x 50",
+            "Squirming Core x 12"
+          ]
+        },
+        {
+          "name": "Bailu",
+          "builds": [
+            {
+              "tabName": "Pure Healer",
+              "relic": [
+                "Musketeer of Wild Wheat",
+                "Passerby of Wandering Cloud",
+                ""
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Time Waits for No One(S1)",
+                "Post-Op Conversation(S1)",
+                "Warmth Shortens Cold Nights(S5)",
+                "Shared Feeling(S1)",
+                "Cornucopia (S5)",
+                "Perfect Timing(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: HP%"
+                },
+                {
+                  "data": "Feet: Outgoing Healing"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: HP%"
+                }
+              ]
+            },
+            {
+              "tabName": "Utility",
+              "relic": [
+                "Musketeer of Wild Wheat",
+                "Passerby of Wandering Cloud",
+                ""
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Quid Pro Quo(S5)",
+                "Shared Feeling(S1)",
+                "Post-Op Conversation(S1)",
+                "Multiplication(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: HP%"
+                },
+                {
+                  "data": "Feet: Outgoing Healing"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: HP%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1319"
+            },
+            {
+              "name": "ATK",
+              "detail": "562"
+            },
+            {
+              "name": "DEF",
+              "detail": "485"
+            },
+            {
+              "name": "Speed",
+              "detail": "98"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Extinguished Core x 15",
+            "Glimmering Core x 15",
+            "Lightning Crown of the Past Shadow x 66",
+            "Squirming Core x 15"
+          ]
+        },
+        {
+          "name": "Jing Yuan",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Band of Sizzling Thunder",
+                ""
+              ],
+              "planetary": [
+                "Inert Salsotto",
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "Before Dawn(S1)",
+                "Today Is Another Peaceful Day(S1)",
+                "The Seriousness of Breakfast(S5)",
+                "The Birth of the Self(S1)",
+                "Night on the Milky Way(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Lightning DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1164"
+            },
+            {
+              "name": "ATK",
+              "detail": "698"
+            },
+            {
+              "name": "DEF",
+              "detail": "485"
+            },
+            {
+              "name": "Speed",
+              "detail": "99"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Immortal Scionette x 15",
+            "Immortal Aeroblossom x 15",
+            "Shape Shifter's Lightning Staff x 66",
+            "Immortal Lumintwig x 15"
+          ]
+        },
+        {
+          "name": "Kafka",
+          "builds": [],
+          "stats": [],
+          "materials": []
+        },
+        {
+          "name": "Serval",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Band of Sizzling Thunder",
+                "Band of Sizzling Thunder + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "Before Dawn(S1)",
+                "The Seriousness of Breakfast(S5)",
+                "Night on the Milky Way(S1)",
+                "Today Is Another Peaceful Day(S1)",
+                "Geniuses' Repose(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Lightning DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "917"
+            },
+            {
+              "name": "ATK",
+              "detail": "652"
+            },
+            {
+              "name": "DEF",
+              "detail": "374"
+            },
+            {
+              "name": "Speed",
+              "detail": "104"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Silvermane Badge x 12",
+            "Silvermane Insignia x 13",
+            "Lightning Crown of the Past Shadow x 50",
+            "Silvermane Medal x 12"
+          ]
+        },
+        {
+          "name": "Tingyun",
+          "builds": [
+            {
+              "tabName": "Support",
+              "relic": [
+                "Musketeer of Wild Wheat",
+                "Eagle of Twilight Line",
+                ""
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Dance! Dance! Dance!(S1)",
+                "Carve the Moon, Weave the Clouds(S1)",
+                "Chorus(S5)",
+                "Memories of the Past (S1)",
+                "But the Battle Isn't Over(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: ATK%"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: ATK%"
+                },
+                {
+                  "data": "Link Rope: ATK%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "846"
+            },
+            {
+              "name": "ATK",
+              "detail": "529"
+            },
+            {
+              "name": "DEF",
+              "detail": "396"
+            },
+            {
+              "name": "Speed",
+              "detail": "112"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Immortal Scionette x 12",
+            "Immortal Aeroblossom x 13",
+            "Lightning Crown of the Past Shadow x 50",
+            "Immortal Lumintwig x 12"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Wind",
+      "characters": [
+        {
+          "name": "Bronya",
+          "builds": [
+            {
+              "tabName": "Hypercarry Support",
+              "relic": [
+                "Eagle of Twilight Line",
+                "Musketeer of Wild Wheat",
+                ""
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "But the Battle Isn't Over(S1)",
+                "Past and Future(S1)",
+                "Memories of the Past (S1)",
+                "Meshing Cogs(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT DMG"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: DEF%"
+                },
+                {
+                  "data": "Link Rope: HP%"
+                }
+              ]
+            },
+            {
+              "tabName": "Pure Support",
+              "relic": [
+                "Eagle of Twilight Line",
+                "Musketeer of Wild Wheat",
+                ""
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Memories of the Past (S1)",
+                "Meshing Cogs(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT DMG"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: DEF%"
+                },
+                {
+                  "data": "Link Rope: HP%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1241"
+            },
+            {
+              "name": "ATK",
+              "detail": "582"
+            },
+            {
+              "name": "DEF",
+              "detail": "533"
+            },
+            {
+              "name": "Speed",
+              "detail": "99"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Silvermane Badge x 15",
+            "Silvermane Insignia x 15",
+            "Storm Eye x 66",
+            "Silvermane Medal x 15"
+          ]
+        },
+        {
+          "name": "Dan Heng",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Eagle of Twilight Line",
+                "Eagle of Twilight Line + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "In the Night(S1)",
+                "Sleep Like the Dead(S1)",
+                "Swordplay(S1)",
+                "Cruising in the Stellar Sea(S5)",
+                "River Flows in Spring(S5)",
+                "Only Silence Remains(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Wind DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "882"
+            },
+            {
+              "name": "ATK",
+              "detail": "546"
+            },
+            {
+              "name": "DEF",
+              "detail": "396"
+            },
+            {
+              "name": "Speed",
+              "detail": "110"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Extinguished Core x 12",
+            "Glimmering Core x 13",
+            "Storm Eye x 50",
+            "Squirming Core x 12"
+          ]
+        },
+        {
+          "name": "Sampo",
+          "builds": [
+            {
+              "tabName": "Pure DoT",
+              "relic": [
+                "Eagle of Twilight Line + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "In The Name of the World(S1)",
+                "Good Night and Sleep Well (S1)",
+                "Eyes of the Prey (S1)",
+                "Fermata(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: ATK%"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: ATK%"
+                },
+                {
+                  "data": "Link Rope: Wind DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1023"
+            },
+            {
+              "name": "ATK",
+              "detail": "617"
+            },
+            {
+              "name": "DEF",
+              "detail": "396"
+            },
+            {
+              "name": "Speed",
+              "detail": "102"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Ancient Part x 12",
+            "Ancient Spindle x 13",
+            "Storm Eye x 50",
+            "Ancient Engine x 12"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Quantum",
+      "characters": [
+        {
+          "name": "Qingque",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Genius of Brilliant Stars",
+                "Genius of Brilliant Stars + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "Before Dawn(S1)",
+                "Today Is Another Peaceful Day(S1)",
+                "Night on the Milky Way(S1)",
+                "The Seriousness of Breakfast(S5)",
+                "Geniuses' Repose(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Speed"
+                },
+                {
+                  "data": "Link Rope: Quantum DMG"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1023"
+            },
+            {
+              "name": "ATK",
+              "detail": "652"
+            },
+            {
+              "name": "DEF",
+              "detail": "441"
+            },
+            {
+              "name": "Speed",
+              "detail": "98"
+            }
+          ],
+          "materials": [
+            "Credit x 246400",
+            "Thief's Instinct x 12",
+            "Usurper's Scheme x 13",
+            "Void Cast Iron x 50",
+            "Conqueror's Will x 12"
+          ]
+        },
+        {
+          "name": "Seele",
+          "builds": [
+            {
+              "tabName": "General DPS",
+              "relic": [
+                "Genius of Brilliant Stars",
+                "Genius of Brilliant Stars + Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "In the Night(S1)",
+                "Sleep Like the Dead(S1)",
+                "Swordplay(S1)",
+                "Cruising in the Stellar Sea(S5)",
+                "River Flows in Spring(S5)",
+                "Only Silence Remains(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: ATK%"
+                },
+                {
+                  "data": "Planar Sphere: Quantum DMG"
+                },
+                {
+                  "data": "Link Rope: ATK%"
+                }
+              ]
+            }
+          ],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "931"
+            },
+            {
+              "name": "ATK",
+              "detail": "640"
+            },
+            {
+              "name": "DEF",
+              "detail": "363"
+            },
+            {
+              "name": "Speed",
+              "detail": "115"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Thief's Instinct x 15",
+            "Usurper's Scheme x 15",
+            "Void Cast Iron x 66",
+            "Conqueror's Will x 15"
+          ]
+        },
+        {
+          "name": "Silver Wolf",
+          "builds": [],
+          "stats": [],
+          "materials": []
+        }
+      ]
+    },
+    {
+      "type": "Imaginary",
+      "characters": [
+        {
+          "name": "Luocha",
+          "builds": [],
+          "stats": [],
+          "materials": []
+        },
+        {
+          "name": "Welt",
+          "builds": [],
+          "stats": [
+            {
+              "name": "HP",
+              "detail": "1125"
+            },
+            {
+              "name": "ATK",
+              "detail": "620"
+            },
+            {
+              "name": "DEF",
+              "detail": "509"
+            },
+            {
+              "name": "Speed",
+              "detail": "102"
+            }
+          ],
+          "materials": [
+            "Credit x 308000",
+            "Silvermane Badge x 15",
+            "Silvermane Insignia x 15",
+            "Golden Crown of the Past Shadow x 66",
+            "Silvermane Medal x 15"
+          ]
+        },
+        {
+          "name": "Yukong",
+          "builds": [],
+          "stats": [],
+          "materials": []
+        }
+      ]
+    }
+  ]
+}

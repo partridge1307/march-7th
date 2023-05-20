@@ -1,0 +1,652 @@
+{
+  "updateAt": "05/20/2023 6:34 PM",
+  "lightCones": [
+    {
+      "type": "Abundance",
+      "lightCones": [
+        {
+          "name": "Cornucopia ",
+          "description": "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12/15/18/21/24%.",
+          "stats": [
+            "HP +952",
+            "ATK +264",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Fine Fruit",
+          "description": "At the beginning of battle, immediately regenerates 6/8/9/11/12 Energy for all allies.",
+          "stats": [
+            "HP +952",
+            "ATK +317",
+            "DEF +198"
+          ]
+        },
+        {
+          "name": "Multiplication",
+          "description": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 12/14/16/18/20%.",
+          "stats": [
+            "HP +952",
+            "ATK +317",
+            "DEF +198"
+          ]
+        },
+        {
+          "name": "Perfect Timing",
+          "description": "Increases the wearer's Effect RES by 16/20/24/28/32% and increases Outgoing Healing by an amount that is equal to 33/36/39/42/45% of Effect RES. Outgoing Healing can be increased this way by up to 15/18/21/24/27%.",
+          "stats": [
+            "HP +952",
+            "ATK +423",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Post-Op Conversation",
+          "description": "Increases Energy Regeneration Rate of its wearer by 8/10/12/14/16% and increases Outgoing Healing when they use their Ultimate by 12/15/18/21/24%.",
+          "stats": [
+            "HP +1058",
+            "ATK +423",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Quid Pro Quo",
+          "description": "At the start of the wearer's turn, regenerates 8/10/12/14/16 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
+          "stats": [
+            "HP +952",
+            "ATK +423",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Shared Feeling",
+          "description": "Increases the wearer's Outgoing Healing by 10/12.5/15/17.5/20%. When using Skill, regenerates 2/2/3/4/4 Energy for all allies.",
+          "stats": [
+            "HP +952",
+            "ATK +423",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Time Waits for No One",
+          "description": "Increases the wearer's Max HP by 18/21/24/27/30% and Outgoing Healing by 12/14/16/18/20%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36/42/48/54/60% of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn\n\n\n",
+          "stats": [
+            "HP +1270",
+            "ATK +476",
+            "DEF +463"
+          ]
+        },
+        {
+          "name": "Warmth Shortens Cold Nights",
+          "description": "Increases the wearer's Max HP by 16/20/24/28/32%. When using Basic ATK or Skill, restores all allies' HP by an amount equal to 2/2.5/3/3.5/4% of their respective Max HP.",
+          "stats": [
+            "HP +1058",
+            "ATK +370",
+            "DEF +396"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Destruction",
+      "lightCones": [
+        {
+          "name": "A Secret Vow",
+          "description": "Increases DMG dealt by the wearer by 20/25/30/35/40%. The wearer also deals an extra 20/25/30/35/40% of DMG to enemies with a higher HP percentage than the wearer.\n\n",
+          "stats": [
+            "HP +1058",
+            "ATK +476",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Collapsing Sky",
+          "description": "Increases the wearer's Basic ATK and Skill DMG by 20/25/30/35/40%.",
+          "stats": [
+            "HP +846",
+            "ATK +370",
+            "DEF +198"
+          ]
+        },
+        {
+          "name": "Mutual Demise",
+          "description": "If the wearer's current HP is lower than 80%, CRIT Rate increases by 12/15/18/21/24%.",
+          "stats": [
+            "HP +846",
+            "ATK +370",
+            "DEF +198"
+          ]
+        },
+        {
+          "name": "Nowhere to Run",
+          "description": "Increases the wearer's ATK by 24/30/36/42/48%. Whenever the wearer defeats an enemy, they restore HP equal to 12/15/18/21/24% of their ATK.\n",
+          "stats": [
+            "HP +952",
+            "ATK +529",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "On the Fall of an Aeon",
+          "description": "Whenever the wearer attacks, their ATK is increased by 8/10/12/14/16% in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by 12/15/18/21/24% for 2 turn(s).",
+          "stats": [
+            "HP +1058",
+            "ATK +529",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Shattered Home",
+          "description": "Deals 20/25/30/35/40% increased DMG to any enemies whose HP is above 50%.",
+          "stats": [
+            "HP +846",
+            "ATK +370",
+            "DEF +198"
+          ]
+        },
+        {
+          "name": "Something Irreplaceable",
+          "description": "Increases the wearer's ATK by 24/28/32/36/40%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8/9/10/11/12% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24/28/32/36/40% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
+          "stats": [
+            "HP +1164",
+            "ATK +582",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "The Moles Welcome You",
+          "description": "For every Basic ATK, Skill, and Ultimate used by the wearer, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12/15/18/21/24%.\n\n",
+          "stats": [
+            "HP +1058",
+            "ATK +476",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Under the Blue Sky",
+          "description": "Increases the wearer's ATK by 16/20/24/28/32%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12/15/18/21/24% for 3 turn(s).",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Woof! Walk Time!",
+          "description": "Increases the wearer's ATK by 10/12.5/15/17.5/20%, and increases their DMG to enemies afflicted with Burn or Bleed by 16/20/24/28/32%. This also applies to DoT.",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Erudition",
+      "lightCones": [
+        {
+          "name": "Before Dawn",
+          "description": "Increases the wearer's CRIT DMG by 36/42/48/54/60%. Increases the wearer's Skill and Ultimate DMG by 18/21/24/27/30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48/56/64/72/80%.\n\n\n",
+          "stats": [
+            "HP +1058",
+            "ATK +582",
+            "DEF +463"
+          ]
+        },
+        {
+          "name": "Data Bank",
+          "description": "Increases the wearer's Ultimate DMG by 28/35/42/49/56%.",
+          "stats": [
+            "HP +740",
+            "ATK +370",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Geniuses' Repose",
+          "description": "Increases the wearer's ATK by 16/20/24/28/32%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24/30/36/42/48% for 3 turn(s).",
+          "stats": [
+            "HP +846",
+            "ATK +476",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Make the World Clamor",
+          "description": "The wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32/40/48/56/64%.",
+          "stats": [
+            "HP +846",
+            "ATK +476",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Night on the Milky Way",
+          "description": "For every enemy on the field, increases the wearer's ATK by 9/10.5/12/13.5/15%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30/35/40/45/50% for 1 turn.",
+          "stats": [
+            "HP +1164",
+            "ATK +582",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Passkey",
+          "description": "After the wearer uses their Skill, additionally regenerates 8/9/10/11/12 Energy. This effect can only be triggered 1 time per turn.",
+          "stats": [
+            "HP +740",
+            "ATK +370",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Sagacity",
+          "description": "When the wearer uses their Ultimate, increases ATK by 24/30/36/42/48% for 2 turn(s).",
+          "stats": [
+            "HP +740",
+            "ATK +370",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "The Birth of the Self",
+          "description": "Increases DMG dealt by the wearer's follow-up attacks by 24/30/36/42/48%. If the current HP of the target enemy is below 50% of their Max HP, increases DMG dealt by follow-up attacks by an extra 24/30/36/42/48%.",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "The Seriousness of Breakfast",
+          "description": "Increases the wearer's DMG by 12/15/18/21/24%. For every defeated enemy, the wearer's ATK increases by 4/5/6/7/8%, stacking up to 3 time(s).\n\n",
+          "stats": [
+            "HP +846",
+            "ATK +476",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Today Is Another Peaceful Day",
+          "description": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.2/0.25/0.3/0.35/0.4% per point of Energy, up to 160 Energy.",
+          "stats": [
+            "HP +846",
+            "ATK +529",
+            "DEF +330"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Harmony",
+      "lightCones": [
+        {
+          "name": "But the Battle Isn't Over",
+          "description": "Increases the wearer's Energy Regeneration Rate by 10/12/14/16/18% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's  Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30/35/40/45/50% more DMG for 1 turn(s).",
+          "stats": [
+            "HP +1164",
+            "ATK +529",
+            "DEF +463"
+          ]
+        },
+        {
+          "name": "Carve the Moon, Weave the Clouds",
+          "description": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by 10/12.5/15/17.5/20%, all allies' CRIT DMG increases by 12/15/18/21/24%, or all allies' Energy Regeneration Rate increases by 6/7.5/9/10.5/12%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.\n\n\n\n",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Chorus",
+          "description": "After entering battle, increases the ATK of all allies by 8/9/10/11/12%. Effects of the same type cannot stack.",
+          "stats": [
+            "HP +846",
+            "ATK +317",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Dance! Dance! Dance!",
+          "description": "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16/18/20/22/24%",
+          "stats": [
+            "HP +952",
+            "ATK +423",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Mediation",
+          "description": "Upon battle entry, all allies receive 12/14/16/18/20 increased SPD for 1 turn(s).",
+          "stats": [
+            "HP +846",
+            "ATK +317",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Memories of the Past ",
+          "description": "Increases the wearer's Break Effect by 28/35/42/49/56%. When the wearer attacks, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.\n\n",
+          "stats": [
+            "HP +952",
+            "ATK +423",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Meshing Cogs",
+          "description": "After the wearer uses attacks or gets hit, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.",
+          "stats": [
+            "HP +846",
+            "ATK +317",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Past and Future",
+          "description": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16/20/24/28/32% increased DMG for 1 turn(s).",
+          "stats": [
+            "HP +952",
+            "ATK +423",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Planetary Rendezvous ",
+          "description": "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12/15/18/21/24%.",
+          "stats": [
+            "HP +1058",
+            "ATK +423",
+            "DEF +330"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Hunt",
+      "lightCones": [
+        {
+          "name": "Adversarial",
+          "description": "When the wearer defeats an enemy, increases SPD by 10/12/14/16/18% for 2 turn(s)",
+          "stats": [
+            "HP +740",
+            "ATK +370",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Arrows",
+          "description": "At the beginning of the battle, increases the wearer's CRIT Rate by 12/15/18/21/24% for 3 turn(s).",
+          "stats": [
+            "HP +846",
+            "ATK +317",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Cruising in the Stellar Sea",
+          "description": "Increases the wearer's CRIT rate by 8/10/12/14/16%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 8/10/12/14/16%. When the wearer defeats an enemy, their ATK is increased by 20/25/30/35/40% for 2 turn(s).",
+          "stats": [
+            "HP +952",
+            "ATK +529",
+            "DEF +463"
+          ]
+        },
+        {
+          "name": "Darting Arrow",
+          "description": "When the wearer defeats an enemy, increase ATK by 24/30/36/42/48% for 3 turn(s).",
+          "stats": [
+            "HP +740",
+            "ATK +370",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "In the Night",
+          "description": "Increases the wearer's CRIT Rate by 18/21/24/27/30%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by 6/7/8/9/10% and the CRIT DMG of their Ultimate is increased by 12/14/16/18/20%. This effect can stack up to 6 time(s).",
+          "stats": [
+            "HP +1058",
+            "ATK +582",
+            "DEF +463"
+          ]
+        },
+        {
+          "name": "Only Silence Remains",
+          "description": "Increases ATK of its wearer by 16/20/24/28/32%. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by 12/15/18/21/24%.",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Return to Darkness",
+          "description": "Increases the wearer's CRIT Rate by 12/15/18/21/24%. After a CRIT Hit, there is a 16/20/24/28/32% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger once per attack.",
+          "stats": [
+            "HP +846",
+            "ATK +529",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "River Flows in Spring",
+          "description": "After entering battle, increases the wearer's SPD by 8/9/10/11/12% and DMG by 12/15/18/21/24%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.",
+          "stats": [
+            "HP +846",
+            "ATK +476",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Sleep Like the Dead",
+          "description": "Increases the wearer's CRIT DMG by 30/35/40/45/50%. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 36/42/48/54/60% for 1 turn(s). This effect can only trigger once every 3 turn(s).",
+          "stats": [
+            "HP +1058",
+            "ATK +582",
+            "DEF +463"
+          ]
+        },
+        {
+          "name": "Subscribe for More!",
+          "description": "Increases the DMG of the wearer's Basic ATK and Skill by 24/30/36/42/48%. This effect increases by an extra 24/30/36/42/48% when the wearer's current Energy reaches its max level.",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Swordplay",
+          "description": "For each time the wearer hits the same target, DMG dealt increases by 8/10/12/14/16%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Nihility",
+      "lightCones": [
+        {
+          "name": "Eyes of the Prey ",
+          "description": "Increases Effect Hit Rate of its wearer by 20/25/30/35/40% and increases DoT by 24/30/36/42/48%.\n\n",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Fermata",
+          "description": "Increases the Break Effect dealt by the wearer by 16/20/24/28/32%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 16/20/24/28/32%. This also applies to DoT.",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Good Night and Sleep Well ",
+          "description": "For every debuff the target enemy has, the DMG dealt by the wearer increases by 12/15/18/21/24%, stacking up to 3 time(s). This effect also applies to DoT.",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Hidden Shadow",
+          "description": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to 60/75/90/105/120% of ATK to the target enemy.",
+          "stats": [
+            "HP +846",
+            "ATK +317",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "In The Name of the World",
+          "description": "Increases the wearer's DMG to debuffed enemies by 24/28/32/36/40%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18/21/24/27/30%, and ATK increases by 24/28/32/36/40%.",
+          "stats": [
+            "HP +1058",
+            "ATK +582",
+            "DEF +463"
+          ]
+        },
+        {
+          "name": "Loop",
+          "description": "Increases DMG dealt from its wearer to Slowed enemies by 24/30/36/42/48%",
+          "stats": [
+            "HP +846",
+            "ATK +317",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Resolution Shines As Pearls of Sweat",
+          "description": "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 60/70/80/90/100% base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by 12/13/14/15/16% for 1 turn(s).",
+          "stats": [
+            "HP +952",
+            "ATK +476",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Void",
+          "description": "At the start of battle, increases the wearer's Effect Hit Rate by 20/25/30/35/40% for 3 turn(s).",
+          "stats": [
+            "HP +846",
+            "ATK +317",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "We Will Meet Again",
+          "description": "After the wearer uses Basic ATK or Skill, the wearer deals 48/60/72/84/96% of ATK as additional DMG to a random enemy that is attacked by abilities.",
+          "stats": [
+            "HP +846",
+            "ATK +529",
+            "DEF +330"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Preservation",
+      "lightCones": [
+        {
+          "name": "Amber",
+          "description": "Increases the wearer's DEF by 16/20/24/28/32%. If the wearer's current HP is lower than 50%, increases their DEF by a further 16/20/24/28/32%.",
+          "stats": [
+            "HP +846",
+            "ATK +264",
+            "DEF +330"
+          ]
+        },
+        {
+          "name": "Day One of My New Life ",
+          "description": "Increases the wearer's DEF by 16/18/20/22/24%. After entering battle, increases DMG RES of all allies by 8/9/10/11/12%. Effects of the same type cannot stack.",
+          "stats": [
+            "HP +952",
+            "ATK +370",
+            "DEF +463"
+          ]
+        },
+        {
+          "name": "Defense",
+          "description": "When the wearer unleashes their Ultimate, they restore HP by 18/21/24/27/30% of their Max HP.",
+          "stats": [
+            "HP +952",
+            "ATK +264",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Landau's Choice",
+          "description": "The wearer is more likely to be attacked, but DMG taken is reduced by 16/18/20/22/24%.",
+          "stats": [
+            "HP +952",
+            "ATK +423",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "Moment of Victory",
+          "description": "Increases the wearer's DEF by 24/28/32/36/40% and Effect Hit Rate by 24/28/32/36/40%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional 24/28/32/36/40% until the end of the wearer's turn.\n",
+          "stats": [
+            "HP +1058",
+            "ATK +476",
+            "DEF +595"
+          ]
+        },
+        {
+          "name": "Pioneering",
+          "description": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by 12/14/16/18/20% of their Max HP.",
+          "stats": [
+            "HP +952",
+            "ATK +264",
+            "DEF +264"
+          ]
+        },
+        {
+          "name": "Texture of Memories",
+          "description": "Increases the wearer's Effect RES by 8/10/12/14/16%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16/20/24/28/32% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12/15/18/21/24%.",
+          "stats": [
+            "HP +1058",
+            "ATK +423",
+            "DEF +529"
+          ]
+        },
+        {
+          "name": "This Is Me!",
+          "description": "Increases the wearer's DEF by 16/20/24/28/32%. Increases the DMG of the wearer when they use their Ultimate by 60/75/90/105/120% of the wearer's DEF. This effect only apply 1 time per enemy target.",
+          "stats": [
+            "HP +846",
+            "ATK +370",
+            "DEF +529"
+          ]
+        },
+        {
+          "name": "Trend of the Universal Market",
+          "description": "Increases the wearer's DEF by 16/20/24/28/32%. When the wearer is attacked, there is a 100/105/110/115/120% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40/50/60/70/80% of the wearer's DEF for 2 turn(s).",
+          "stats": [
+            "HP +1058",
+            "ATK +370",
+            "DEF +396"
+          ]
+        },
+        {
+          "name": "We Are Wildfire",
+          "description": "At the start of the battle, the DMG dealt to all allies decreases by 8/10/12/14/16% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 30/35/40/45/50% of the respective HP difference between the characters' Max HP and current HP.",
+          "stats": [
+            "HP +740",
+            "ATK +476",
+            "DEF +463"
+          ]
+        }
+      ]
+    }
+  ]
+}

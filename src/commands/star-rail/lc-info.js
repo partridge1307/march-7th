@@ -1,0 +1,57 @@
+const fs = require('fs/promises');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+
+const upperCaseFirstLetter = (string) => {
+  string = string.split(' ').map((val) => val.charAt(0).toUpperCase() + val.slice(1));
+  return string.join(' ');
+};
+
+module.exports = {
+  config: new SlashCommandBuilder()
+    .setName('lc-info')
+    .setDescription('Show specific light cone info')
+    .addStringOption((opt) =>
+      opt.setName('light-cone').setDescription("Enter light cone's name").setRequired(true)
+    ),
+  async execute(client, interaction) {
+    let query = interaction.options.getString('light-cone');
+    if (query.match(/[^A-Za-z0-9 ]/g)) {
+      return await interaction.reply({
+        content: `Invalid input, only accept \`Alphanumeric\`, and \`Whitespace\` value. Please try again.`,
+        ephemeral: true,
+      });
+    }
+
+    try {
+      await interaction.deferReply({ ephemeral: true });
+      query = upperCaseFirstLetter(query);
+
+      const data = JSON.parse(
+        await fs.readFile(`${__dirname}/../../data/hsr-lightCones.json`, 'utf-8')
+      );
+      const lightCones = data.lightCones
+        .map((lcs) => lcs.lightCones)
+        .flat()
+        .filter((lc) => lc.name.trim() === query);
+
+      if (!lightCones.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
+
+      const embed = new EmbedBuilder()
+        .setTitle(`${lightCones[0].name}'s Info`)
+        .setDescription(`${lightCones[0].description}`)
+        .addFields({
+          name: `Level 80 stats`,
+          value: lightCones[0].stats.map((stat) => stat).join('\n'),
+        })
+        .setFooter({
+          iconURL: `https://cdn.discordapp.com/emojis/1108450926286618795`,
+          text: `Last update: ${data.updateAt} (GMT +7)`,
+        });
+
+      return await interaction.editReply({ embeds: [embed], ephemeral: true });
+    } catch (error) {
+      console.log(error);
+      return await interaction.editReply({ content: `${error.message}`, ephemeral: true });
+    }
+  },
+};
