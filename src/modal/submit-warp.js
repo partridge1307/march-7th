@@ -52,10 +52,11 @@ module.exports = {
             //   .join('\n')}`;
             const trimmedFourStarText = trimText(item.data.four_star);
 
-            const nextFiveStar = item.list
-              .reverse()
-              .findIndex((item) => Number(item.rank_type) === 5);
-            const nextFourStar = item.list.findIndex((item) => Number(item.rank_type) === 4);
+            const nextFiveStar =
+              item.list.reverse().findIndex((item) => Number(item.rank_type) === 5) ||
+              item.list.length;
+            const nextFourStar =
+              item.list.findIndex((item) => Number(item.rank_type) === 4) || item.list.length;
 
             return {
               name: item.banner,
