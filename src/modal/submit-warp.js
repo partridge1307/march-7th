@@ -107,7 +107,7 @@ module.exports = {
       )
       .setFooter({
         iconURL: `https://cdn.discordapp.com/emojis/1104531562906779658`,
-        text: `If you have any error please contact partridge#4334`,
+        text: `If you have any error please contact partridge#4447`,
       });
 
     return await interaction.editReply({ embeds: [embed], ephemeral: true });
