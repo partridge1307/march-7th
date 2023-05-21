@@ -55,8 +55,7 @@ module.exports = {
             const nextFiveStar =
               item.list.reverse().findIndex((item) => Number(item.rank_type) === 5) ||
               item.list.length;
-            const nextFourStar =
-              item.list.findIndex((item) => Number(item.rank_type) === 4) || item.list.length;
+            const nextFourStar = item.list.findIndex((item) => Number(item.rank_type) === 4);
 
             return {
               name: item.banner,
