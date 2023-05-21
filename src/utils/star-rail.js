@@ -152,6 +152,47 @@ exports.fetchLightConeList = async (browser) => {
   return datas;
 };
 
+exports.fetchRelicList = async (browser) => {
+  const page = await browser.newPage();
+  await page.goto('https://www.prydwen.gg/star-rail/guides/relic-sets', {
+    timeout: 0,
+    waitUntil: 'networkidle2',
+  });
+  const buttons = await page.$$(
+    'div.content.hsr > .employees-filter-bar.hsr > div.filter-bar-element.button_bar.element-1 >>> button[type=button]'
+  );
+
+  let datas = [];
+  for (const [i, button] of buttons.entries()) {
+    if (i !== 0) {
+      const attribute = await button.evaluate(async (btn) => {
+        await btn.click();
+        return btn.getAttribute('value');
+      });
+      const relicEls = await page.$$('div.content.hsr > div.relic-set-container >>> div.hsr-set');
+
+      let relics = [];
+      for (const relic of relicEls) {
+        const relicName = await (
+          await relic.$('div.hsr-set-name > h5.name')
+        ).evaluate((r) => r.textContent);
+
+        const relicDescElements = await relic.$$('div.hsr-set-description > div');
+        const relicDescPromise = relicDescElements.map(
+          async (relic) => await relic.evaluate((r) => r.textContent)
+        );
+        const relicDesc = await Promise.all(relicDescPromise);
+
+        relics.push({ name: relicName, description: relicDesc });
+      }
+
+      datas.push({ type: attribute, relics });
+    }
+  }
+
+  return datas;
+};
+
 const convertName = (name) => {
   let latest_name;
   if (name.match(/\(|\)/g)) {

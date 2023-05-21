@@ -7,11 +7,6 @@ const {
   StringSelectMenuOptionBuilder,
 } = require('discord.js');
 
-const upperCaseFirstLetter = (string) => {
-  string = string.split(' ').map((val) => val.charAt(0).toUpperCase() + val.slice(1));
-  return string.join(' ');
-};
-
 module.exports = {
   config: new SlashCommandBuilder()
     .setName('character-info')
@@ -30,13 +25,12 @@ module.exports = {
 
     try {
       await interaction.deferReply({ ephemeral: true });
-      query = upperCaseFirstLetter(query);
 
       const data = JSON.parse(await fs.readFile(`${__dirname}/../../data/hsr-chars.json`, 'utf-8'));
       const character = data.characters
         .map((chars) => chars.characters)
         .flat()
-        .filter((char) => char.name.trim() === query);
+        .filter((char) => char.name.trim().toLowerCase() === query.toLowerCase());
 
       if (!character.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 

@@ -9,6 +9,7 @@ const {
   fetchCodeAndEvent,
   fetchCharacterList,
   fetchLightConeList,
+  fetchRelicList,
   fetchCharacterDatas,
 } = require('../utils/star-rail');
 
@@ -47,6 +48,7 @@ exports.updateData = async () => {
   });
   const characterList = await fetchCharacterList(browser);
   const lightConeList = await fetchLightConeList(browser);
+  const relicList = await fetchRelicList(browser);
   await browser.close();
 
   const util = await fetchCodeAndEvent();
@@ -68,6 +70,15 @@ exports.updateData = async () => {
   fs.writeFileSync(
     `${__dirname}/../data/hsr-lightCones.json`,
     JSON.stringify(hsr_lightCones, null, 2),
+    'utf-8'
+  );
+
+  let hsr_relics = {};
+  hsr_relics.updateAt = currentTime;
+  hsr_relics.relics = relicList;
+  fs.writeFileSync(
+    `${__dirname}/../data/hsr-relics.json`,
+    JSON.stringify(hsr_relics, null, 2),
     'utf-8'
   );
 

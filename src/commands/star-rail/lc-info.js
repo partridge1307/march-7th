@@ -1,11 +1,6 @@
 const fs = require('fs/promises');
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
-const upperCaseFirstLetter = (string) => {
-  string = string.split(' ').map((val) => val.charAt(0).toUpperCase() + val.slice(1));
-  return string.join(' ');
-};
-
 module.exports = {
   config: new SlashCommandBuilder()
     .setName('lc-info')
@@ -24,7 +19,6 @@ module.exports = {
 
     try {
       await interaction.deferReply({ ephemeral: true });
-      query = upperCaseFirstLetter(query);
 
       const data = JSON.parse(
         await fs.readFile(`${__dirname}/../../data/hsr-lightCones.json`, 'utf-8')
@@ -32,7 +26,7 @@ module.exports = {
       const lightCones = data.lightCones
         .map((lcs) => lcs.lightCones)
         .flat()
-        .filter((lc) => lc.name.trim() === query);
+        .filter((lc) => lc.name.trim().toLowerCase() === query.toLowerCase());
 
       if (!lightCones.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 
