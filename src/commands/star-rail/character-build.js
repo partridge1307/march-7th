@@ -47,8 +47,10 @@ module.exports = {
                     .map((pl) => pl)
                     .join('\n')}\n\n__Light Cone__:\n${build.lightCone
                     .map((lc) => lc)
-                    .join('\n')}\n\n__Best stats__:\n${build.stats
-                    .map((stat) => stat.data)
+                    .join('\n')}\n\n__Best Stats__:\n${build.mainStats
+                    .map((st) => `${st.title} ${st.stat}`)
+                    .join('\n')}\n\n__Other__:\n${build.subStats
+                    .map((st) => `${st.title} ${st.stat}`)
                     .join('\n')}`,
                 };
               })

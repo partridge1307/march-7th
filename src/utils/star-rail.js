@@ -288,29 +288,63 @@ const getBuilds = ($, tabs) => {
     const lightCone = filterRawContent(lightConeRawContent);
 
     // RELIC STATS
-    const statNameElements = tab
-      .find('div.build-stats')
-      .find('div.col')
-      .find('div.stats-header > span');
-    const statNames = getRawContent($, statNameElements);
+    // const statNameElements = tab
+    //   .find('div.build-stats')
+    //   .find('div.col')
+    //   .find('div.stats-header > span');
+    // const statNames = getRawContent($, statNameElements);
 
-    const listStatElements = tab
-      .find('div.build-stats')
-      .find('div.col')
-      .find('div.list-stats > div.hsr-stat')
-      .find('span');
-    const listStats = getRawContent($, listStatElements);
+    // const listStatElements = tab
+    //   .find('div.build-stats')
+    //   .find('div.col')
+    //   .find('div.list-stats > div.hsr-stat')
+    //   .find('span');
+    // const listStats = getRawContent($, listStatElements);
 
-    const stats = statNames.map((name, i) => ({
-      data: `${name} ${listStats[i]}`,
-    }));
+    // const stats = statNames.map((name, i) => ({
+    //   data: `${name} ${listStats[i]}`,
+    // }));
+
+    const mainStatElements = tab.find('div.build-stats > div.main-stats > div.col > div.box');
+    const mainStats = mainStatElements
+      .map(function (i, el) {
+        const title = $(this).find('div.stats-header > span').text();
+
+        const statEls = $(this).find('div.hsr-stat > span');
+        const stat = statEls
+          .map(function (i, el) {
+            return $(this).text();
+          })
+          .toArray()
+          .join(' or ');
+
+        return {
+          title,
+          stat,
+        };
+      })
+      .toArray();
+
+    const subStatElements = tab.find('div.build-stats > div.row > div > div.sub-stats');
+    const subStats = subStatElements
+      .map(function (i, el) {
+        const title = $(this).find('span').text();
+        const stat = $(this).find('p').text();
+
+        return {
+          title,
+          stat,
+        };
+      })
+      .toArray();
 
     return {
       tabName,
       relic: !split_relic.length ? [...relic] : [...relic, split_relic],
       planetary,
       lightCone,
-      stats,
+      mainStats,
+      subStats,
     };
   });
 

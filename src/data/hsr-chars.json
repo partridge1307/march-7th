@@ -1,5 +1,5 @@
 {
-  "updateAt": "05/24/2023 8:46 PM",
+  "updateAt": "05/24/2023 11:00 PM",
   "characters": [
     {
       "type": "Physical",
@@ -25,18 +25,36 @@
                 "Under the Blue Sky(S1)",
                 "The Moles Welcome You(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Physical DMG"
                 },
                 {
-                  "data": "Link Rope: Physical DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Talent > Skill > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Revenge > Kinship > Under Protection"
                 }
               ]
             }
@@ -127,18 +145,36 @@
                 "Cornucopia (S5)",
                 "Perfect Timing(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: HP%"
+                  "title": "Body:",
+                  "stat": "HP% or Outgoing Healing"
                 },
                 {
-                  "data": "Feet: Outgoing Healing"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "HP%"
                 },
                 {
-                  "data": "Link Rope: HP%"
+                  "title": "Link Rope:",
+                  "stat": "HP%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed >>> HP% > DEF%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Soothe > Recuperation > Healer"
                 }
               ]
             },
@@ -157,18 +193,36 @@
                 "Post-Op Conversation(S1)",
                 "Multiplication(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: HP%"
+                  "title": "Body:",
+                  "stat": "HP% or Outgoing Healing"
                 },
                 {
-                  "data": "Feet: Outgoing Healing"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "HP%"
                 },
                 {
-                  "data": "Link Rope: HP%"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed >>> HP% > DEF%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Soothe > Recuperation > Healer"
                 }
               ]
             }
@@ -248,18 +302,36 @@
                 "River Flows in Spring(S5)",
                 "Only Silence Remains(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Physical DMG"
                 },
                 {
-                  "data": "Link Rope: Physical DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Riposte > Vanquisher > Guileless"
                 }
               ]
             }
@@ -338,18 +410,36 @@
                 "Under the Blue Sky(S1)",
                 "The Moles Welcome You(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Physical DMG"
+                  "title": "Planar Sphere:",
+                  "stat": "Physical DMG"
                 },
                 {
-                  "data": "Link Rope: ATK%"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Fighting Will > Ready for Battle > Perseverance"
                 }
               ]
             }
@@ -433,18 +523,36 @@
                 "Dance! Dance! Dance!(S1)",
                 "Carve the Moon, Weave the Clouds(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: HP%"
+                  "title": "Body:",
+                  "stat": "HP%"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Fire DMG"
+                  "title": "Planar Sphere:",
+                  "stat": "Fire DMG or HP%"
                 },
                 {
-                  "data": "Link Rope: HP%"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed >>> HP% > Break Effect%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Talent > Skill > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Ignite > Constellation > Sparks"
                 }
               ]
             }
@@ -522,18 +630,36 @@
                 "Today Is Another Peaceful Day(S1)",
                 "Geniuses' Repose(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Fire DMG"
                 },
                 {
-                  "data": "Link Rope: Fire DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Starfire > Magma > Benchmark"
                 }
               ]
             }
@@ -615,18 +741,36 @@
                 "The Moles Welcome You(S1)",
                 "Under the Blue Sky(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Fire DMG"
                 },
                 {
-                  "data": "Link Rope: Fire DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Playing With Fire > Innocence > Naivete"
                 }
               ]
             }
@@ -705,18 +849,36 @@
                 "Day One of My New Life (S1)",
                 "We Are Wildfire(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: DEF%"
+                  "title": "Body:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: DEF%"
+                  "title": "Planar Sphere:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Link Rope: Energy Regen Rate"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed > DEF% > HP%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Talent > Basic > Skill"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "The Strong Defend the Weak > Action Beats Overthinking > Unwavering Gallantry"
                 }
               ]
             },
@@ -735,18 +897,36 @@
                 "Trend of the Universal Market(S1)",
                 "Amber(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: DEF%"
+                  "title": "Body:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: DEF%"
+                  "title": "Planar Sphere:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Link Rope: DEF%"
+                  "title": "Link Rope:",
+                  "stat": "DEF%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "DEF% > Speed > HP%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Talent > Ultimate > Basic > Skill"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "The Strong Defends the Weak > Action Beats Overthinking > Unwavering Gallantry"
                 }
               ]
             }
@@ -840,18 +1020,36 @@
                 "Trend of the Universal Market(S1)",
                 "We Are Wildfire(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: DEF%"
+                  "title": "Body:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: DEF%"
+                  "title": "Planar Sphere:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Link Rope: Energy Regen Rate"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "DEF% > Speed > Effect Hit Rate > HP%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Basic > Talent"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Integrity > Fighting Spirit > Commander"
                 }
               ]
             },
@@ -871,18 +1069,36 @@
                 "Amber(S5)",
                 "This Is Me!(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: DEF%"
+                  "title": "Body:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: DEF%"
+                  "title": "Planar Sphere:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Link Rope: DEF%"
+                  "title": "Link Rope:",
+                  "stat": "DEF% or Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "DEF% > Speed > Effect Hit Rate > HP%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Basic > Talent"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Integrity > Fighting Spirit > Commander"
                 }
               ]
             }
@@ -961,18 +1177,36 @@
                 "Today Is Another Peaceful Day(S1)",
                 "Geniuses' Repose(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Ice DMG"
                 },
                 {
-                  "data": "Link Rope: Ice DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Efficiency > Icing > Puppet"
                 }
               ]
             }
@@ -1047,18 +1281,36 @@
                 "We Are Wildfire(S5)",
                 "Amber(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: Effect HIT Rate"
+                  "title": "Body:",
+                  "stat": "Effect HIT Rate"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: DEF%"
+                  "title": "Planar Sphere:",
+                  "stat": "DEF%"
                 },
                 {
-                  "data": "Link Rope: DEF%"
+                  "title": "Link Rope:",
+                  "stat": "DEF% or Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "DEF% > Speed > Effect Hit Rate > HP%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Skill > Ultimate > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Purify > Ice Spell > Reinforce"
                 }
               ]
             }
@@ -1139,18 +1391,36 @@
                 "Eyes of the Prey (S1)",
                 "Void(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: Effect HIT Rate"
+                  "title": "Body:",
+                  "stat": "Effect HIT Rate"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Ice DMG"
+                  "title": "Planar Sphere:",
+                  "stat": "Ice DMG"
                 },
                 {
-                  "data": "Link Rope: Energy Regen Rate"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Effect Hit Rate > Speed > ATK%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Talent > Skill > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "The Secret Strategy > Bash = Wipe Out"
                 }
               ]
             }
@@ -1230,18 +1500,36 @@
                 "River Flows in Spring(S5)",
                 "Only Silence Remains(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT DMG"
+                  "title": "Body:",
+                  "stat": "CRIT DMG"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Ice DMG"
                 },
                 {
-                  "data": "Link Rope: Ice DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG >>> ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Icing on the Kick > Gentle Blade > Frost Favors the Brave"
                 }
               ]
             }
@@ -1324,18 +1612,36 @@
                 "Under the Blue Sky(S1)",
                 "The Moles Welcome You(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Lightning DMG"
                 },
                 {
-                  "data": "Link Rope: Lightning DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Revival > Repel > Endurance"
                 }
               ]
             }
@@ -1415,18 +1721,36 @@
                 "Cornucopia (S5)",
                 "Perfect Timing(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: HP%"
+                  "title": "Body:",
+                  "stat": "HP% or Outgoing Healing"
                 },
                 {
-                  "data": "Feet: Outgoing Healing"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "HP%"
                 },
                 {
-                  "data": "Link Rope: HP%"
+                  "title": "Link Rope:",
+                  "stat": "HP%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed >>> HP% > DEF%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Vidyadhara Ichor Lines > Aquatic Benediction > Qihuang Analects"
                 }
               ]
             },
@@ -1445,18 +1769,36 @@
                 "Post-Op Conversation(S1)",
                 "Multiplication(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: HP%"
+                  "title": "Body:",
+                  "stat": "HP% or Outgoing Healing"
                 },
                 {
-                  "data": "Feet: Outgoing Healing"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "HP%"
                 },
                 {
-                  "data": "Link Rope: HP%"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed >>> HP% > DEF%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Vidyadhara Ichor Lines > Aquatic Benediction > Qihuang Analects"
                 }
               ]
             }
@@ -1534,18 +1876,36 @@
                 "The Birth of the Self(S1)",
                 "Night on the Milky Way(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Lightning DMG"
                 },
                 {
-                  "data": "Link Rope: Lightning DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Talent > Skill > Ultimate > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "War Marshal > Battalia Crush > Savant Providence"
                 }
               ]
             }
@@ -1643,18 +2003,36 @@
                 "Today Is Another Peaceful Day(S1)",
                 "Geniuses' Repose(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Lightning DMG"
                 },
                 {
-                  "data": "Link Rope: Lightning DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Rock 'n' Roll > Mania > String Vibration"
                 }
               ]
             }
@@ -1733,18 +2111,36 @@
                 "Memories of the Past (S1)",
                 "But the Battle Isn't Over(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: ATK%"
+                  "title": "Body:",
+                  "stat": "ATK%"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed or ATK%"
                 },
                 {
-                  "data": "Planar Sphere: ATK%"
+                  "title": "Planar Sphere:",
+                  "stat": "ATK%"
                 },
                 {
-                  "data": "Link Rope: ATK%"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed > ATK% > HP% = DEF%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Jubilant Passage > Nourished Joviality > Knell Subdual"
                 }
               ]
             }
@@ -1835,18 +2231,36 @@
                 "Memories of the Past (S1)",
                 "Meshing Cogs(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT DMG"
+                  "title": "Body:",
+                  "stat": "CRIT DMG"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: DEF%"
+                  "title": "Planar Sphere:",
+                  "stat": "DEF% or HP%"
                 },
                 {
-                  "data": "Link Rope: HP%"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed >>> Crit DMG > HP% = DEF%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Command > Military Might > Battlefield"
                 }
               ]
             },
@@ -1863,18 +2277,36 @@
                 "Memories of the Past (S1)",
                 "Meshing Cogs(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT DMG"
+                  "title": "Body:",
+                  "stat": "CRIT DMG"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: DEF%"
+                  "title": "Planar Sphere:",
+                  "stat": "DEF% or HP%"
                 },
                 {
-                  "data": "Link Rope: HP%"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Speed >>> Crit DMG > HP% = DEF%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Talent > Skill > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Command > Military Might > Battlefield"
                 }
               ]
             }
@@ -1963,18 +2395,36 @@
                 "River Flows in Spring(S5)",
                 "Only Silence Remains(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Wind DMG"
                 },
                 {
-                  "data": "Link Rope: Wind DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Faster Than Light > Hidden Dragon > High Gale"
                 }
               ]
             }
@@ -2051,18 +2501,36 @@
                 "Eyes of the Prey (S1)",
                 "Fermata(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: ATK%"
+                  "title": "Body:",
+                  "stat": "ATK%"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed or ATK%"
                 },
                 {
-                  "data": "Planar Sphere: ATK%"
+                  "title": "Planar Sphere:",
+                  "stat": "Wind DMG"
                 },
                 {
-                  "data": "Link Rope: Wind DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "ATK% > Speed > Effect Hit Rate"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Trap > Defensive Position > Spice Up"
                 }
               ]
             }
@@ -2146,18 +2614,36 @@
                 "The Seriousness of Breakfast(S5)",
                 "Geniuses' Repose(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK% or Speed"
                 },
                 {
-                  "data": "Planar Sphere: Speed"
+                  "title": "Planar Sphere:",
+                  "stat": "Quantum DMG"
                 },
                 {
-                  "data": "Link Rope: Quantum DMG"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Basic > Skill = Ultimate > Talent"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Bide Time > Winning Hand > Tile Battle"
                 }
               ]
             }
@@ -2236,18 +2722,36 @@
                 "River Flows in Spring(S5)",
                 "Only Silence Remains(S1)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: ATK%"
+                  "title": "Feet:",
+                  "stat": "ATK%"
                 },
                 {
-                  "data": "Planar Sphere: Quantum DMG"
+                  "title": "Planar Sphere:",
+                  "stat": "Quantum DMG"
                 },
                 {
-                  "data": "Link Rope: ATK%"
+                  "title": "Link Rope:",
+                  "stat": "ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit DMG = Crit Rate > ATK% > Speed"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Lacerate > Rippling Waves > Nightshade"
                 }
               ]
             }
@@ -2356,18 +2860,36 @@
                 "Eyes of the Prey (S1)",
                 "Loop(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: CRIT Rate"
+                  "title": "Body:",
+                  "stat": "CRIT Rate"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Imaginary DMG"
+                  "title": "Planar Sphere:",
+                  "stat": "Imaginary DMG"
                 },
                 {
-                  "data": "Link Rope: Energy Regen Rate"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate or ATK%"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Crit Rate = Crit DMG > Speed > Effect Hit Rate > ATK%"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Retribution > Judgment > Punishment"
                 }
               ]
             },
@@ -2387,18 +2909,36 @@
                 "In The Name of the World(S1)",
                 "Void(S5)"
               ],
-              "stats": [
+              "mainStats": [
                 {
-                  "data": "Body: Effect HIT Rate"
+                  "title": "Body:",
+                  "stat": "Effect HIT Rate"
                 },
                 {
-                  "data": "Feet: Speed"
+                  "title": "Feet:",
+                  "stat": "Speed"
                 },
                 {
-                  "data": "Planar Sphere: Imaginary DMG"
+                  "title": "Planar Sphere:",
+                  "stat": "Imaginary DMG"
                 },
                 {
-                  "data": "Link Rope: Energy Regen Rate"
+                  "title": "Link Rope:",
+                  "stat": "Energy Regen Rate"
+                }
+              ],
+              "subStats": [
+                {
+                  "title": "Substats:",
+                  "stat": "Effect Hit Rate > Speed > Break Effect"
+                },
+                {
+                  "title": "Skills priority:",
+                  "stat": "Ultimate > Skill > Talent > Basic"
+                },
+                {
+                  "title": "Major Traces priority:",
+                  "stat": "Retribution > Judgment > Punishment"
                 }
               ]
             }
