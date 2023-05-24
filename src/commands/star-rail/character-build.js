@@ -6,7 +6,11 @@ module.exports = {
     .setName('character-build')
     .setDescription('Get build of specific character in HSR')
     .addStringOption((opt) =>
-      opt.setName('character').setDescription("Enter character' name").setRequired(true)
+      opt
+        .setName('character')
+        .setDescription("Enter character' name")
+        .setRequired(true)
+        .setAutocomplete(true)
     ),
   async execute(client, interaction) {
     let query = interaction.options.getString('character');

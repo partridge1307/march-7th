@@ -1,5 +1,5 @@
 {
-  "updateAt": "05/21/2023 7:59 PM",
+  "updateAt": "05/24/2023 8:46 PM",
   "characters": [
     {
       "type": "Physical",
@@ -65,6 +65,46 @@
             "Ancient Spindle x 15",
             "Broken Teeth of Iron Wolf x 66",
             "Ancient Engine x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Highest damage ceiling in the game, ",
+                "Unparalleled AoE damage output, ",
+                "Very strong even against a single target, ",
+                "Very durable character that can shrug off debilitating effects, ",
+                "Destroys pretty much everything in the game without issue."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Outside of ultimate, you have somewhat limited control over her damage output, ",
+                "Demands to be hit to find the most success, ",
+                "Team limitations arise, limiting the choice of Preservation characters."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Clara",
+                "Natasha",
+                "March 7th",
+                "Dan Heng"
+              ]
+            },
+            {
+              "title": "Clara Carry Team",
+              "characters": [
+                "Clara",
+                "Bailu",
+                "March 7th",
+                "Tingyun"
+              ]
+            }
           ]
         },
         {
@@ -74,8 +114,7 @@
               "tabName": "Pure Healer",
               "relic": [
                 "Musketeer of Wild Wheat",
-                "Passerby of Wandering Cloud",
-                ""
+                "Passerby of Wandering Cloud"
               ],
               "planetary": [
                 "Fleet of the Ageless"
@@ -107,8 +146,7 @@
               "tabName": "Utility",
               "relic": [
                 "Musketeer of Wild Wheat",
-                "Passerby of Wandering Cloud",
-                ""
+                "Passerby of Wandering Cloud"
               ],
               "planetary": [
                 "Fleet of the Ageless"
@@ -159,6 +197,35 @@
             "Ancient Spindle x 13",
             "Broken Teeth of Iron Wolf x 50",
             "Ancient Engine x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "The only free healer, ",
+                "Powerful generalist support kit,",
+                "Rare source of Cleanse that is invaluable against certain enemies, ",
+                "Regen provides additional unconditional healing."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Healing output is not as impressive as Bailu, ",
+                "Regens are only effective if you live until your next turn."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Natasha",
+                "Serval",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -221,6 +288,34 @@
             "Cogwheel Machina x 13",
             "Broken Teeth of Iron Wolf x 50",
             "Gyreheart Machina x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Good single-target damage output, ",
+                "Fantastic breaker, ",
+                "Turn advance allows her to act far more frequently and can offset weak AoE."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Very skill point hungry, ",
+                "She’s subject to RNG if the enemy is not weakness broken."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Sushang",
+                "Natasha",
+                "Trailblazer Fire",
+                "Serval"
+              ]
+            }
           ]
         },
         {
@@ -283,6 +378,37 @@
             "Usurper's Scheme x 13",
             "Enigmatic Ectostella x 28",
             "Conqueror's Will x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Versatile damage dealer in the early game, ",
+                "You’ll get all their eidolons for free by just playing, ",
+                "Role flexibility within Simulated Universe, ",
+                "Out of combat party healing",
+                ""
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Single-target damage lags significantly beyond early game, ",
+                "Completely overshadowed by their Preservation variant, ",
+                "Needs time to stack their talent to deal better damage"
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Trailblazer Physical",
+                "Natasha",
+                "March 7th",
+                "Dan Heng"
+              ]
+            }
           ]
         }
       ]
@@ -292,7 +418,37 @@
       "characters": [
         {
           "name": "Asta",
-          "builds": [],
+          "builds": [
+            {
+              "tabName": "Support",
+              "relic": [
+                "Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "But the Battle Isn't Over(S1)",
+                "Memories of the Past (S1)",
+                "Dance! Dance! Dance!(S1)",
+                "Carve the Moon, Weave the Clouds(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: HP%"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: Fire DMG"
+                },
+                {
+                  "data": "Link Rope: HP%"
+                }
+              ]
+            }
+          ],
           "stats": [
             {
               "name": "HP",
@@ -317,6 +473,35 @@
             "Silvermane Insignia x 13",
             "Endotherm Chitin x 50",
             "Silvermane Medal x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "General support with good attack buffs, ",
+                "Able to boost Speed with her ultimate, ",
+                "Great Breaker with her skill against single targets, ",
+                "Has limited damage over time for more offensive utility."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Expensive ultimate, Lower value when not facing fire-weak foes, ",
+                "Skill can hit inconsistently in AoE scenarios."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Asta",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -377,6 +562,36 @@
             "Glimmering Core x 15",
             "Endotherm Chitin x 66",
             "Squirming Core x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Top tier AoE damage, ",
+                "Decent single-target damage, ",
+                "Burn DoT allows for consistent damage contribution, ",
+                "Can work as a hypercarry with proper investment, ",
+                "Demolishes farming and auto content."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Relies on Traces for maximum performance so can struggle early on, ",
+                "While still good, her single-target damage is still lower than dedicated single-target characters."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Himeko",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -440,6 +655,36 @@
             "Ancient Spindle x 13",
             "Endotherm Chitin x 50",
             "Ancient Engine x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Fantastic single-target damage output, ",
+                "Really well designed and synergistic kit, ",
+                "Consistent damage over time thanks to endless burn, ",
+                "Great energy economy."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Requires ramp-up time which can be detrimental in modes where time is of the essence,",
+                "Mostly single-target with only decent AoE, ",
+                "Still loses to actual Hunt units in single-target dps."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Hook",
+                "Natasha",
+                "Trailblazer Fire",
+                "Serval"
+              ]
+            }
           ]
         },
         {
@@ -448,8 +693,7 @@
             {
               "tabName": "Tanking & Utility",
               "relic": [
-                "Knight of Purity Palace",
-                ""
+                "Knight of Purity Palace"
               ],
               "planetary": [
                 "Fleet of the Ageless"
@@ -479,8 +723,7 @@
             {
               "tabName": "Shielding",
               "relic": [
-                "Knight of Purity Palace",
-                ""
+                "Knight of Purity Palace"
               ],
               "planetary": [
                 "Belobog of the Architects",
@@ -532,6 +775,45 @@
             "Usurper's Scheme x 13",
             "Enigmatic Ectostella x 28",
             "Conqueror's Will x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Fantastic support with great shielding, damage, and breaking, ",
+                "Versatile build paths, ",
+                "Dual scaling, ",
+                "AoE Taunt skill, ",
+                "Invaluable in endgame content like Simulated Universe and Forgotten Hall, ",
+                "All Eidolons will be unlocked just by playing."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Shields have lower hp compared to other shielders."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team (turtle)",
+              "characters": [
+                "Trailblazer Fire",
+                "Natasha",
+                "March 7th",
+                "Dan Heng"
+              ]
+            },
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Trailblazer Fire",
+                "Natasha",
+                "Serval",
+                "Dan Heng"
+              ]
+            }
           ]
         }
       ]
@@ -545,8 +827,7 @@
             {
               "tabName": "Hybrid Tank",
               "relic": [
-                "Knight of Purity Palace",
-                ""
+                "Knight of Purity Palace"
               ],
               "planetary": [
                 "Belobog of the Architects",
@@ -577,8 +858,7 @@
             {
               "tabName": "Shielding",
               "relic": [
-                "Knight of Purity Palace",
-                ""
+                "Knight of Purity Palace"
               ],
               "planetary": [
                 "Belobog of the Architects",
@@ -631,6 +911,35 @@
             "Silvermane Insignia x 15",
             "Horn of Snow x 66",
             "Silvermane Medal x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Colossal shields that cover all allies, ",
+                "Great energy economy, ",
+                "Good skill point generator, ",
+                "Potential CC bot if you build into it."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Completely useless talent, and a Major Trace is wasted attempting to fix it, ",
+                "His shields are complete overkill for overworld content."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Gepard",
+                "Natasha",
+                "Serval",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -692,6 +1001,31 @@
             "Glimmering Core x 13",
             "Horn of Snow x 50",
             "Squirming Core x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Good farming unit for Calyx and Auto content."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Literally everything else."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Herta",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -700,8 +1034,7 @@
             {
               "tabName": "Shielding",
               "relic": [
-                "Knight of Purity Palace",
-                ""
+                "Knight of Purity Palace"
               ],
               "planetary": [
                 "Belobog of the Architects",
@@ -754,11 +1087,74 @@
             "Usurper's Scheme x 13",
             "Horn of Snow x 50",
             "Conqueror's Will x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Massive single-target shield that lasts a long time, ",
+                "Single-target Cleanse on her skill, ",
+                "Increased aggro on targets she shields with her skill, ",
+                "AoE Freeze on her ultimate, ",
+                "Counters provide great bonus energy, ",
+                "Great synergy with other Shielders, ",
+                "Great synergy with Clara."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Her shield does not guarantee enemies hitting into it, ",
+                "You cannot build into both Freeze and Shield strength—hybridising results in being weak at both,",
+                "Loses value against enemies that are resistant to Freeze."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "March 7th",
+                "Natasha",
+                "Serval",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
           "name": "Pela",
-          "builds": [],
+          "builds": [
+            {
+              "tabName": "Debuffer",
+              "relic": [
+                "Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Pan-Galactic Commercial Enterprise",
+                "Fleet of the Ageless"
+              ],
+              "lightCone": [
+                "Resolution Shines As Pearls of Sweat(S1)",
+                "Eyes of the Prey (S1)",
+                "Void(S1)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: Effect HIT Rate"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: Ice DMG"
+                },
+                {
+                  "data": "Link Rope: Energy Regen Rate"
+                }
+              ]
+            }
+          ],
           "stats": [
             {
               "name": "HP",
@@ -783,6 +1179,35 @@
             "Glimmering Core x 13",
             "Horn of Snow x 50",
             "Squirming Core x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Massive DEF shred that amplifies the whole team’s damage, ",
+                "Able to dispel enemies with her skill, ",
+                "Good energy economy, ",
+                "Strong support scaling."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Requires a proper team to benefit from her, ",
+                "Mediocre damage output."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Pela",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -845,6 +1270,34 @@
             "Usurper's Scheme x 15",
             "Gelid Chitin x 66",
             "Conqueror's Will x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Fantastic free stats that allow for great scaling, ",
+                "Decimates early game due to his talent being overkill, ",
+                "Has crowd-control with Freeze without needing to build into it."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Performs best with a specific team setup shielding him often, ",
+                "Can end up being very resource hungry to successfully maintain his talent."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Yanqing",
+                "Natasha",
+                "Trailblazer Fire",
+                "Serval"
+              ]
+            }
           ]
         }
       ]
@@ -858,8 +1311,7 @@
             {
               "tabName": "General DPS",
               "relic": [
-                "Band of Sizzling Thunder",
-                ""
+                "Band of Sizzling Thunder"
               ],
               "planetary": [
                 "Space Sealing Station"
@@ -912,6 +1364,35 @@
             "Glimmering Core x 13",
             "Lightning Crown of the Past Shadow x 50",
             "Squirming Core x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Zero direct skill point consumption, ",
+                "Strong early game."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Consumes skill points by proxy, since he demands shields and/or heals to survive,",
+                "Demands too many resources, ",
+                "Weak in AoE, ",
+                "Falls off very hard. "
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Arlan",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -921,8 +1402,7 @@
               "tabName": "Pure Healer",
               "relic": [
                 "Musketeer of Wild Wheat",
-                "Passerby of Wandering Cloud",
-                ""
+                "Passerby of Wandering Cloud"
               ],
               "planetary": [
                 "Fleet of the Ageless"
@@ -954,8 +1434,7 @@
               "tabName": "Utility",
               "relic": [
                 "Musketeer of Wild Wheat",
-                "Passerby of Wandering Cloud",
-                ""
+                "Passerby of Wandering Cloud"
               ],
               "planetary": [
                 "Fleet of the Ageless"
@@ -1006,6 +1485,34 @@
             "Glimmering Core x 15",
             "Lightning Crown of the Past Shadow x 66",
             "Squirming Core x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Best healer on release (but we only have 2, so it’s not as amazing as it sounds initially), ",
+                "Has a revive mechanic for if you mess up in a fight, ",
+                "Invigorate provides immediate healing after taking damage and can further mitigate damage directly."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Lacking a cleanse is devastating for certain enemy and boss encounters, ",
+                "The moment a healer with more utility get released, Bailu will likely be superseded by them."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Serval",
+                "Bailu",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -1014,8 +1521,7 @@
             {
               "tabName": "General DPS",
               "relic": [
-                "Band of Sizzling Thunder",
-                ""
+                "Band of Sizzling Thunder"
               ],
               "planetary": [
                 "Inert Salsotto",
@@ -1068,13 +1574,55 @@
             "Immortal Aeroblossom x 15",
             "Shape Shifter's Lightning Staff x 66",
             "Immortal Lumintwig x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Top-tier AoE damage combined with great single-target damage,",
+                "Easy to use and reach his AoE potential (unlike Clara),",
+                "Highest skill multipliers in the game currently,",
+                "Great at Breaking as each Lightning Lord attack is treated as separate damage instance,",
+                "A freaking Stand."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "On auto, Lightning-Lord may attack before getting 6 stacks which will waste the major trace bonus,",
+                "130 Ultimate cost means you will need to get 5 energy from somewhere if you want to use his Ultimate every 4 turns - 30 x 4 (from using Skill) + 5 from using Ultimate = 125,",
+                "Kinda bad synergy with offensive supports - since you can't target Lightning-Lord, you can't boost it directly with Bronya for example."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Jing Yuan",
+                "Natasha",
+                "Trailblazer Fire",
+                "Tingyun"
+              ]
+            },
+            {
+              "title": "Hypercarry Team",
+              "characters": [
+                "Jing Yuan",
+                "Bronya",
+                "Tingyun",
+                "Bailu"
+              ]
+            }
           ]
         },
         {
           "name": "Kafka",
           "builds": [],
           "stats": [],
-          "materials": []
+          "materials": [],
+          "prosAndCons": [],
+          "bestTeam": []
         },
         {
           "name": "Serval",
@@ -1135,6 +1683,35 @@
             "Silvermane Insignia x 13",
             "Lightning Crown of the Past Shadow x 50",
             "Silvermane Medal x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Amazing character for free, ",
+                "AoE damage is ridiculous, rivalling even some 5*s, ",
+                "Very skill point efficient, ",
+                "Consistent damage over time makes her a reliable teammate."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Her skill AoE only hits 3 targets, so she struggles against waves of more enemies, ",
+                "Single-target damage is underwhelming."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Serval",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -1144,8 +1721,7 @@
               "tabName": "Support",
               "relic": [
                 "Musketeer of Wild Wheat",
-                "Eagle of Twilight Line",
-                ""
+                "Eagle of Twilight Line"
               ],
               "planetary": [
                 "Fleet of the Ageless"
@@ -1197,6 +1773,35 @@
             "Immortal Aeroblossom x 13",
             "Lightning Crown of the Past Shadow x 50",
             "Immortal Lumintwig x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Arguably the best 4* character on release, ",
+                "Can funnel other characters energy with ultimate, ",
+                "Has top tier offensive buffs, ",
+                "Potential to be very skill point efficient,",
+                "Very flexible playstyles."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "She performs best while supporting a hypercarry, as her buffs are single-target."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Tingyun",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         }
       ]
@@ -1205,14 +1810,21 @@
       "type": "Wind",
       "characters": [
         {
+          "name": "Blade",
+          "builds": [],
+          "stats": [],
+          "materials": [],
+          "prosAndCons": [],
+          "bestTeam": []
+        },
+        {
           "name": "Bronya",
           "builds": [
             {
               "tabName": "Hypercarry Support",
               "relic": [
                 "Eagle of Twilight Line",
-                "Musketeer of Wild Wheat",
-                ""
+                "Musketeer of Wild Wheat"
               ],
               "planetary": [
                 "Fleet of the Ageless"
@@ -1242,8 +1854,7 @@
               "tabName": "Pure Support",
               "relic": [
                 "Eagle of Twilight Line",
-                "Musketeer of Wild Wheat",
-                ""
+                "Musketeer of Wild Wheat"
               ],
               "planetary": [
                 "Fleet of the Ageless"
@@ -1292,6 +1903,44 @@
             "Silvermane Insignia x 15",
             "Storm Eye x 66",
             "Silvermane Medal x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Absurd offensive buffs, ",
+                "Likely the best character you can get, ",
+                "Lots of flexibility due to the turn advance of her skill, ",
+                "Can happily ignore crit rate."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Not as impactful early on since she’s ultimately an enabler for other damage dealers, ",
+                "Good luck getting her."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Bronya",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            },
+            {
+              "title": "Hypercarry Team",
+              "characters": [
+                "Bronya",
+                "Tingyun",
+                "Bailu",
+                "Seele"
+              ]
+            }
           ]
         },
         {
@@ -1354,6 +2003,35 @@
             "Glimmering Core x 13",
             "Storm Eye x 50",
             "Squirming Core x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Exceptional starter character that scales easily into endgame, ",
+                "Phenomenal damage multipliers especially for a 4*, ",
+                "Consistent source of utility with the slow on skill, ",
+                "Has rare resistance penetration in his kit, Low cost ultimate."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Cannot proc his own talent without allies, ",
+                "Steep learning curve for optimal performance."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Dan Heng",
+                "Natasha",
+                "Trailblazer Fire",
+                "Serval"
+              ]
+            }
           ]
         },
         {
@@ -1413,6 +2091,35 @@
             "Ancient Spindle x 13",
             "Storm Eye x 50",
             "Ancient Engine x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Excellent breaker unit, ",
+                "Very strong and consistent damage contribution thanks to his unending DoT, ",
+                "Potentially very skill point efficient, ",
+                "Ultimate boosts all forms of DoT including weakness break DoTs."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "There aren’t many characters that can take advantage of his ultimate’s debuff, ",
+                "Needs a couple of turns at the start to get his DoT going."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Sampo",
+                "Natasha",
+                "Trailblazer Fire",
+                "Serval"
+              ]
+            }
           ]
         }
       ]
@@ -1479,6 +2186,34 @@
             "Usurper's Scheme x 13",
             "Void Cast Iron x 50",
             "Conqueror's Will x 12"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Quantum is a rare element, so she gives you a way to deal with foes weak to it, ",
+                "Can be a good sub-dps that generates skill points."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Using her skill is ill-advised, putting her at a disadvantage compared to other characters,",
+                "Inconsistent damage output, ",
+                "Quite energy hungry and ultimate reliant."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Qingque",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
@@ -1541,13 +2276,52 @@
             "Usurper's Scheme x 15",
             "Void Cast Iron x 66",
             "Conqueror's Will x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Highest unconditional single-target damage potential in the game, ",
+                "Works astonishingly well in AoE scenarios due to the nature of her kit, making her a rare universal DPS, ",
+                "Quantum RES PEN allows her to be used effectively even outside of QUA weak foes."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Potentially very skill-point-hungry if she’s too fast, ",
+                "Good luck pulling for her.\t"
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Seele",
+                "Natasha",
+                "Trailblazer Fire",
+                "Asta"
+              ]
+            },
+            {
+              "title": "Hypercarry Team",
+              "characters": [
+                "Seele",
+                "Bronya",
+                "Tingyun",
+                "Bailu"
+              ]
+            }
           ]
         },
         {
           "name": "Silver Wolf",
           "builds": [],
           "stats": [],
-          "materials": []
+          "materials": [],
+          "prosAndCons": [],
+          "bestTeam": []
         }
       ]
     },
@@ -1558,11 +2332,77 @@
           "name": "Luocha",
           "builds": [],
           "stats": [],
-          "materials": []
+          "materials": [],
+          "prosAndCons": [],
+          "bestTeam": []
         },
         {
           "name": "Welt",
-          "builds": [],
+          "builds": [
+            {
+              "tabName": "Hybrid Debuffer/DPS",
+              "relic": [
+                "Wastelander of Banditry Desert",
+                "Musketeer of Wild Wheat"
+              ],
+              "planetary": [
+                "Pan-Galactic Commercial Enterprise",
+                "Space Sealing Station"
+              ],
+              "lightCone": [
+                "Good Night and Sleep Well (S5)",
+                "In The Name of the World(S1)",
+                "Good Night and Sleep Well (S1)",
+                "Eyes of the Prey (S1)",
+                "Loop(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: CRIT Rate"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: Imaginary DMG"
+                },
+                {
+                  "data": "Link Rope: Energy Regen Rate"
+                }
+              ]
+            },
+            {
+              "tabName": "Debuffer/Breaker",
+              "relic": [
+                "Musketeer of Wild Wheat",
+                "Thief of Shooting Meteor"
+              ],
+              "planetary": [
+                "Pan-Galactic Commercial Enterprise",
+                "Talia: Kingdom of Banditry"
+              ],
+              "lightCone": [
+                "Resolution Shines As Pearls of Sweat(S1)",
+                "Eyes of the Prey (S1)",
+                "In The Name of the World(S1)",
+                "Void(S5)"
+              ],
+              "stats": [
+                {
+                  "data": "Body: Effect HIT Rate"
+                },
+                {
+                  "data": "Feet: Speed"
+                },
+                {
+                  "data": "Planar Sphere: Imaginary DMG"
+                },
+                {
+                  "data": "Link Rope: Energy Regen Rate"
+                }
+              ]
+            }
+          ],
           "stats": [
             {
               "name": "HP",
@@ -1587,13 +2427,44 @@
             "Silvermane Insignia x 15",
             "Golden Crown of the Past Shadow x 66",
             "Silvermane Medal x 15"
+          ],
+          "prosAndCons": [
+            {
+              "title": "Pros",
+              "content": [
+                "Overloaded kit that does it all, ",
+                "Great defensive utility with all the slows and delays, ",
+                "Incomparably role flexible, ",
+                "The only source of damage amplification, allowing it to stack fully with other debuffs like Pela’s DEF reduction, ",
+                "Rare element of Imaginary means he’s able to deal with the many foes that are weak to it."
+              ]
+            },
+            {
+              "title": "Cons",
+              "content": [
+                "Slowing enemies down may not be optimal if you have an overarching time limit."
+              ]
+            }
+          ],
+          "bestTeam": [
+            {
+              "title": "F2P Team",
+              "characters": [
+                "Welt",
+                "Natasha",
+                "Trailblazer Fire",
+                "Dan Heng"
+              ]
+            }
           ]
         },
         {
           "name": "Yukong",
           "builds": [],
           "stats": [],
-          "materials": []
+          "materials": [],
+          "prosAndCons": [],
+          "bestTeam": []
         }
       ]
     }

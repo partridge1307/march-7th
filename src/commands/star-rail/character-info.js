@@ -12,7 +12,11 @@ module.exports = {
     .setName('character-info')
     .setDescription('Show specific character info')
     .addStringOption((opt) =>
-      opt.setName('character').setDescription("Enter character's name").setRequired(true)
+      opt
+        .setName('character')
+        .setDescription("Enter character's name")
+        .setRequired(true)
+        .setAutocomplete(true)
     ),
   async execute(client, interaction) {
     let query = interaction.options.getString('character');
@@ -39,16 +43,36 @@ module.exports = {
         .setDescription(`Level 80`)
         .addFields([
           {
+            name: `Pros and Cons`,
+            value: !character[0].prosAndCons.length
+              ? `Pros and Cons are not available for this character`
+              : character[0].prosAndCons
+                  .map((rv) => `__${rv.title}__:\n${rv.content.map((c) => `-${c}`).join('\n')}`)
+                  .join('\n\n'),
+          },
+          {
+            name: `Best Team`,
+            value: !character[0].bestTeam.length
+              ? `Best team are not available for this character`
+              : character[0].bestTeam
+                  .map(
+                    (team) => `__${team.title}__:\n${team.characters.map((chr) => chr).join('\n')}`
+                  )
+                  .join('\n\n'),
+          },
+          {
             name: `Stats`,
             value: !character[0].stats.length
               ? `Stats are not available for this character`
               : character[0].stats.map((stat) => `${stat.name}: ${stat.detail}`).join('\n'),
+            inline: true,
           },
           {
             name: `Ascension Materials`,
             value: !character[0].materials.length
               ? `Ascension Materials are not available for this character`
               : character[0].materials.map((material) => material).join('\n'),
+            inline: true,
           },
         ])
         .setFooter({

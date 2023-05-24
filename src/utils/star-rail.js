@@ -5,10 +5,16 @@ exports.fetchCodeAndEvent = async () => {
   const data = (await axios.get('https://www.prydwen.gg/star-rail/')).data;
   const $ = cheerio.load(data);
 
-  const codeElements = $('.content.hsr > .codes').find('p.code');
+  const codeElements = $('.content.hsr > .codes > div');
   const codes = codeElements
     .map(function (i, el) {
-      return $(this).text();
+      const code = $(this).find('p.code').text();
+      const rewards = $(this).find('p.rewards').text();
+
+      return {
+        code,
+        rewards,
+      };
     })
     .toArray();
 
@@ -301,7 +307,7 @@ const getBuilds = ($, tabs) => {
 
     return {
       tabName,
-      relic: [...relic, split_relic],
+      relic: !split_relic.length ? [...relic] : [...relic, split_relic],
       planetary,
       lightCone,
       stats,
@@ -427,6 +433,66 @@ const getCharacterMaterial = ($) => {
   // return materials;
 };
 
+const getCharacterProsAndCons = ($) => {
+  const prosConsElements = $(
+    'div#section-review > div.section-analysis > div.analysis > div > div.pros-cons'
+  ).find('div.box');
+
+  const prosAndCons = prosConsElements
+    .map(function (i, el) {
+      const title = $(this).find('h5').text();
+
+      const contentEls = $(this).find('ul > li > p');
+      const content = contentEls
+        .map(function (i, el) {
+          const text = $(this)
+            .text()
+            .replace(/[\r\n]+$/g, '');
+
+          return text;
+        })
+        .toArray();
+
+      return {
+        title,
+        content,
+      };
+    })
+    .toArray();
+
+  return prosAndCons;
+};
+
+const getCharacterBestTeam = ($) => {
+  const bestTeamElements = $('div#section-build > div.best-team > div.col');
+
+  const bestTeam = bestTeamElements
+    .map(function (i, el) {
+      const title = $(this).find('h6').text();
+
+      const characterEls = $(this).find('div.team-container > span > a');
+      const character = characterEls
+        .map(function (i, el) {
+          let char = $(this).attr('href').split('/').pop();
+          char = char
+            .split('-')
+            .map((ch) => ch.charAt(0).toUpperCase() + ch.slice(1))
+            .join(' ');
+
+          return char;
+        })
+        .toArray();
+
+      return {
+        title,
+        characters: character,
+      };
+    })
+    .toArray();
+
+  return bestTeam;
+};
+
 exports.fetchCharacterDatas = async (datas) => {
   let list = [];
 
@@ -442,12 +508,16 @@ exports.fetchCharacterDatas = async (datas) => {
       const builds = getBuilds($, tabs);
       const stats = getCharacterStat($);
       const materials = getCharacterMaterial($);
+      const prosAndCons = getCharacterProsAndCons($);
+      const bestTeam = getCharacterBestTeam($);
 
       return {
         name,
         builds,
         stats,
         materials,
+        prosAndCons,
+        bestTeam,
       };
     });
 

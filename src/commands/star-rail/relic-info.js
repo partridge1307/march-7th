@@ -6,7 +6,11 @@ module.exports = {
     .setName('relic-info')
     .setDescription('Show specific relic info')
     .addStringOption((opt) =>
-      opt.setName('relic').setDescription("Enter relic's name").setRequired(true)
+      opt
+        .setName('relic')
+        .setDescription("Enter relic's name")
+        .setRequired(true)
+        .setAutocomplete(true)
     ),
   async execute(client, interaction) {
     let query = interaction.options.getString('relic');

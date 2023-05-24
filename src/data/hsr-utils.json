@@ -1,8 +1,14 @@
 {
-  "updateAt": "05/21/2023 7:59 PM",
+  "updateAt": "05/24/2023 8:46 PM",
   "codes": [
-    "STARRAILGIFT",
-    "HSRVER10JYTGHC"
+    {
+      "code": "STARRAILGIFT",
+      "rewards": "50 Stellar Jades + Traveler's Guide + 5 Bottled Soda + 10k credits"
+    },
+    {
+      "code": "HSRVER10JYTGHC",
+      "rewards": "50 Stellar Jades + 10k credits"
+    }
   ],
   "banners": [
     {

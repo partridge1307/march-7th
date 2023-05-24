@@ -6,7 +6,11 @@ module.exports = {
     .setName('lc-info')
     .setDescription('Show specific light cone info')
     .addStringOption((opt) =>
-      opt.setName('light-cone').setDescription("Enter light cone's name").setRequired(true)
+      opt
+        .setName('light-cone')
+        .setDescription("Enter light cone's name")
+        .setRequired(true)
+        .setAutocomplete(true)
     ),
   async execute(client, interaction) {
     let query = interaction.options.getString('light-cone');
