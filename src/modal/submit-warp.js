@@ -52,10 +52,13 @@ module.exports = {
             //   .join('\n')}`;
             const trimmedFourStarText = trimText(item.data.four_star);
 
-            const nextFiveStar =
-              item.list.reverse().findIndex((item) => Number(item.rank_type) === 5) ||
-              item.list.length;
-            const nextFourStar = item.list.findIndex((item) => Number(item.rank_type) === 4);
+            let nextFiveStar = item.list
+              .reverse()
+              .findIndex((item) => Number(item.rank_type) === 5);
+            let nextFourStar = item.list.findIndex((item) => Number(item.rank_type) === 4);
+
+            if (!nextFiveStar && nextFiveStar !== 0) nextFiveStar = item.list.length;
+            if (!nextFourStar && nextFourStar !== 0) nextFourStar = item.list.length;
 
             return {
               name: item.banner,
