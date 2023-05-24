@@ -52,6 +52,7 @@ module.exports = {
                     .join('\n')}\n\n__Other__:\n${build.subStats
                     .map((st) => `${st.title} ${st.stat}`)
                     .join('\n')}`,
+                  inline: true,
                 };
               })
         )

@@ -316,7 +316,7 @@ const getBuilds = ($, tabs) => {
             return $(this).text();
           })
           .toArray()
-          .join(' or ');
+          .join(' / ');
 
         return {
           title,
