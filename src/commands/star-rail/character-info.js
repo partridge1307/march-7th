@@ -39,55 +39,75 @@ module.exports = {
       if (!character.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 
       const embed = new EmbedBuilder()
-        .setTitle(`${character[0].name}'s Info`)
+        .setTitle(`${character[0].name} (${character[0].rarity})'s Info`)
         .setDescription(`Level 80`)
+        .setThumbnail(`${character[0].imageLink}`)
         .addFields([
           {
-            name: `Pros and Cons`,
-            value: !character[0].prosAndCons.length
-              ? `Pros and Cons are not available for this character`
-              : character[0].prosAndCons
-                  .map((rv) => `__${rv.title}__:\n${rv.content.map((c) => `-${c}`).join('\n')}`)
+            name: `Skills\n(Shown for levels 1/10/12 | 1/6/7 for Basic)`,
+            value: !character[0].skills.length
+              ? `Skills not available for this character`
+              : character[0].skills
+                  .map((skill) => `\`${skill.name}\`\n(${skill.skillType.join(', ')})`)
                   .join('\n\n'),
+            inline: true,
           },
           {
-            name: `Best Team`,
-            value: !character[0].bestTeam.length
-              ? `Best team are not available for this character`
-              : character[0].bestTeam
+            name: `Traces`,
+            value: !character[0].majorTraces.length
+              ? `Traces not available for this character`
+              : character[0].majorTraces
                   .map(
-                    (team) => `__${team.title}__:\n${team.characters.map((chr) => chr).join('\n')}`
+                    (trace) =>
+                      `\`${trace.name}\`\n(${trace.skillType.join(
+                        ', '
+                      )})\n__Minor Traces__:\n${trace.smallTraces
+                        .map((small) => `${small.statName}: ${small.value}`)
+                        .join('\n')}`
                   )
                   .join('\n\n'),
+            inline: true,
+          },
+          {
+            name: '\u200b',
+            value: '\u200b',
           },
           {
             name: `Stats`,
             value: !character[0].stats.length
-              ? `Stats are not available for this character`
+              ? `Stats not available for this character`
               : character[0].stats.map((stat) => `${stat.name}: ${stat.detail}`).join('\n'),
             inline: true,
           },
           {
             name: `Ascension Materials`,
             value: !character[0].materials.length
-              ? `Ascension Materials are not available for this character`
+              ? `Ascension Materials not available for this character`
               : character[0].materials.map((material) => material).join('\n'),
             inline: true,
           },
         ])
         .setFooter({
           iconURL: `https://cdn.discordapp.com/emojis/1108450926286618795`,
-          text: `Last update: ${data.updateAt} (GMT +7)`,
+          text: `Last update: ${data.updateAt} (GMT +7)\nData is fetched from Prydwen`,
         });
 
       const buildSelect = new StringSelectMenuBuilder()
-        .setCustomId('check-build')
-        .setPlaceholder("Check this character's build")
+        .setCustomId('more-info')
+        .setPlaceholder('More Information')
         .addOptions(
           new StringSelectMenuOptionBuilder()
-            .setLabel('Click here to navigate to build')
-            .setValue(`${query}`)
-            .setEmoji('1109450819838939157')
+            .setLabel("Check this character's build")
+            .setValue(`${query}-build`)
+            .setEmoji('1109450819838939157'),
+          new StringSelectMenuOptionBuilder()
+            .setLabel("Check this character's detail skill info")
+            .setValue(`${query}-skill`)
+            .setEmoji('1111951514186027068'),
+          new StringSelectMenuOptionBuilder()
+            .setLabel("Check this character's detail trace info")
+            .setValue(`${query}-trace`)
+            .setEmoji('1111951631676887060')
         );
 
       const row = new ActionRowBuilder().addComponents(buildSelect);

@@ -1,11 +1,13 @@
 {
-  "updateAt": "05/24/2023 11:00 PM",
+  "updateAt": "05/27/2023 6:42 PM",
   "characters": [
     {
       "type": "Physical",
       "characters": [
         {
           "name": "Clara",
+          "imageLink": "https://www.prydwen.gg/static/a3d2d3e7db3d202b575b6fa1d95baf2c/e9a79/18_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -32,7 +34,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -123,10 +125,141 @@
                 "Tingyun"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "I Want to Help",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Physical DMG equal to 50/100/110% of Clara's ATK to a single enemy."
+            },
+            {
+              "name": "Svarog Watches Over You",
+              "skillType": [
+                " Skill",
+                "AoE ATK"
+              ],
+              "skillContent": "Deals Physical DMG equal to 60/120/132% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 60/120/132% of Clara's ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after this Skill is used."
+            },
+            {
+              "name": "Promise, Not Command",
+              "skillType": [
+                " Ultimate",
+                "Enhance ",
+                "110 energy"
+              ],
+              "skillContent": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 15/25/27%, and she has greatly increased chances of being attacked by enemies for 2 turn(s). In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 96/160/173%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect 2 time(s)."
+            },
+            {
+              "name": "Because We're Family",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 80/160/176% of Clara's ATK."
+            },
+            {
+              "name": "Small Price For Victory",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s)."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Kinship",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them.",
+              "smallTraces": [
+                {
+                  "statName": "Physical DMG",
+                  "value": "+3.2%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Under Protection",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "The chance to resist Crowd Control Debuffs increases by 35%.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Physical DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Revenge",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Increase Svarog's Counter DMG by 30%.",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Physical DMG",
+                  "value": "+6.4%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            }
           ]
         },
         {
+          "name": "Luka",
+          "imageLink": "https://www.prydwen.gg/static/4185afc694ea76acbd60392330b4b9b8/e9a79/33_sm.png",
+          "rarity": "4★",
+          "builds": [],
+          "stats": [],
+          "materials": [],
+          "prosAndCons": [],
+          "bestTeam": [],
+          "skills": [],
+          "majorTraces": [],
+          "minorTraces": []
+        },
+        {
           "name": "Natasha",
+          "imageLink": "https://www.prydwen.gg/static/9dcedbe8b82ddc53e6392b76750a2225/e9a79/16_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "Pure Healer",
@@ -148,7 +281,7 @@
               "mainStats": [
                 {
                   "title": "Body:",
-                  "stat": "HP% or Outgoing Healing"
+                  "stat": "HP% / Outgoing Healing"
                 },
                 {
                   "title": "Feet:",
@@ -196,7 +329,7 @@
               "mainStats": [
                 {
                   "title": "Body:",
-                  "stat": "HP% or Outgoing Healing"
+                  "stat": "HP% / Outgoing Healing"
                 },
                 {
                   "title": "Feet:",
@@ -280,10 +413,128 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Behind the Kindness",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Physical DMG equal to 50/100/110% of Natasha's ATK to a single enemy."
+            },
+            {
+              "name": "Love, Heal, and Choose",
+              "skillType": [
+                " Skill",
+                "Restore"
+              ],
+              "skillContent": "Restores a single ally for 7/10/11% of Natasha's Max HP plus 70/280/312. Restores the ally for another 5/7/8% of Natasha's Max HP plus 48/192/214 at the beginning of each turn for 2 turn(s)."
+            },
+            {
+              "name": "Gift of Rebirth",
+              "skillType": [
+                " Ultimate",
+                "Restore ",
+                "90 energy"
+              ],
+              "skillContent": "Heals all allies for 9/14/15% of Natasha's Max HP plus 92/368/409."
+            },
+            {
+              "name": "Innervation",
+              "skillType": [
+                " Talent",
+                "Restore"
+              ],
+              "skillContent": "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 25/50/55%. This effect also works on continuous healing."
+            },
+            {
+              "name": "Hypnosis Research",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% base chance to Weaken all enemies. While Weakened, enemies deal 30% less DMG to allies for 1 turn(s)."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Soothe",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "The Skill removes 1 debuff(s) from a target ally.",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                }
+              ]
+            },
+            {
+              "name": "Healer",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Natasha's Outgoing Healing increases by 10%.",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Recuperation",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Increases the duration of her Skill's continuous healing effect for 1 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "HP+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "HP+8%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "Sushang",
+          "imageLink": "https://www.prydwen.gg/static/fb77ae92a3803222046cc60021e7c62d/e9a79/27_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -309,7 +560,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -388,10 +639,129 @@
                 "Serval"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Cloudfencer Art: Starshine",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Physical DMG equal to 50/100/110% of Sushang's ATK to a single enemy."
+            },
+            {
+              "name": "Cloudfencer Art: Mountainfall",
+              "skillType": [
+                " Skill",
+                "Single Target"
+              ],
+              "skillContent": "Deals Physical DMG equal to 105/210/231% of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 50/100/110% of Sushang's ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger."
+            },
+            {
+              "name": "Shape of Taixu: Dawn Herald",
+              "skillType": [
+                " Ultimate",
+                "Single Target",
+                "120 energy"
+              ],
+              "skillContent": "Deals Physical DMG equal to 192/320/346% of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by 18/30/32% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG."
+            },
+            {
+              "name": "Dancing Blade",
+              "skillType": [
+                " Talent",
+                "Support"
+              ],
+              "skillContent": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by 15/20/21% for 2 turn(s)."
+            },
+            {
+              "name": "Cloudfencer Art: Warcry",
+              "skillType": [
+                " Technique",
+                "Impair"
+              ],
+              "skillContent": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Guileless",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Riposte",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5%. Stacks up to 10 time(s).",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Vanquisher",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "After using Basic ATK or Skill, if there are enemies on the field with Weakness Break, Sushang's action is Advanced Forward by 15%.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "DEF+5%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "ATK+6%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         },
         {
           "name": "Trailblazer (Physical)",
+          "imageLink": "https://www.prydwen.gg/static/6b5c908dc6251ca612876b40a1f87c9a/e9a79/1_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -499,6 +869,123 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Farewell Hit",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Physical DMG equal to 50/100/110% of the Trailblazer's ATK to a single enemy."
+            },
+            {
+              "name": "RIP Home Run",
+              "skillType": [
+                " Skill",
+                "Blast"
+              ],
+              "skillContent": "Deals Physical DMG equal to 62/125/137% of the Trailblazer's ATK to a single enemy and enemies adjacent to it."
+            },
+            {
+              "name": "Stardust Ace",
+              "skillType": [
+                " Ultimate",
+                "Enhance",
+                "120 energy"
+              ],
+              "skillContent": "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to 300/450/480% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to 180/270/288% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to 108/162/172% of the Trailblazer's ATK to enemies adjacent to it. "
+            },
+            {
+              "name": "Perfect Pickoff",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer's ATK increases by 10/20/22%. This effect stacks up to 2 time(s)."
+            },
+            {
+              "name": "Immortal Third Strike",
+              "skillType": [
+                " Technique",
+                "Restore"
+              ],
+              "skillContent": "Immediately heals all allies for 15% of their respective Max HP after using this Technique."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Ready for Battle",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "At the start of the battle, immediately regenerates 15 Energy.",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                }
+              ]
+            },
+            {
+              "name": "Perseverance",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Each stack of Talent increases the Trailblazer's DEF by 10%.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Fighting Will",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "When using Skill or Ultimate Blowout: RIP Home Run, DMG dealt to the target enemy is increased by 25%.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            }
           ]
         }
       ]
@@ -508,6 +995,8 @@
       "characters": [
         {
           "name": "Asta",
+          "imageLink": "https://www.prydwen.gg/static/cae9b5e5ada7da3d4432d0e1d01dbf4d/e9a79/10_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "Support",
@@ -534,7 +1023,7 @@
                 },
                 {
                   "title": "Planar Sphere:",
-                  "stat": "Fire DMG or HP%"
+                  "stat": "Fire DMG / HP%"
                 },
                 {
                   "title": "Link Rope:",
@@ -610,10 +1099,128 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Spectrum Beam",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Fire DMG equal to 50/100/110% of Asta's ATK to a single enemy."
+            },
+            {
+              "name": "Meteor Storm",
+              "skillType": [
+                " Skill",
+                "Bounce"
+              ],
+              "skillContent": "Deals Fire DMG equal to 25/50/55% of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 25/50/55% of Asta's ATK to a random enemy."
+            },
+            {
+              "name": "Astral Blessing",
+              "skillType": [
+                " Ultimate",
+                "Support",
+                "120 energy"
+              ],
+              "skillContent": "Increases SPD of all allies by 36/50/53 for 2 turn(s)."
+            },
+            {
+              "name": "Astrometry",
+              "skillType": [
+                " Talent",
+                "Support"
+              ],
+              "skillContent": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every stack of Charging Asta has, all allies' ATK increases by 7/14/15%, up to 5 time(s). Starting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
+            },
+            {
+              "name": "Miracle Flash",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Sparks",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Asta's Basic ATK has a 80% base chance to Burn enemies for 3 turn(s), making the enemy take Fire DoT equal to 50% of Asta's Basic ATK DMG at the start of each turn.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                },
+                {
+                  "statName": "Fire DMG",
+                  "value": "+3.2%"
+                }
+              ]
+            },
+            {
+              "name": "Ignite",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "When Asta is on the field, all allies' Fire DMG increases by 18%.",
+              "smallTraces": [
+                {
+                  "statName": "Fire DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                }
+              ]
+            },
+            {
+              "name": "Constellation",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Asta's DEF increases by 6% for every current Charging stack she possesses.",
+              "smallTraces": [
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+10%"
+                },
+                {
+                  "statName": "Fire DMG",
+                  "value": "+6.4%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "Fire DMG+3.2%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "CRIT Rate+2.7%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "Fire DMG+4.8%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         },
         {
           "name": "Himeko",
+          "imageLink": "https://www.prydwen.gg/static/f321ebceb88e9b1f2f0cff4861aca551/e9a79/5_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -637,7 +1244,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -718,10 +1325,129 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Sawblade Tuning",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Fire DMG equal to 50/100/110% of Himeko's ATK to a single enemy."
+            },
+            {
+              "name": "Molten Detonation",
+              "skillType": [
+                " Skill",
+                "Blast"
+              ],
+              "skillContent": "Deals Fire DMG equal to 100/200/220% of Himeko's ATK to a single enemy and Fire DMG equal to 40/80/88% of Himeko's ATK to any adjacent enemies."
+            },
+            {
+              "name": "Heavenly Flare",
+              "skillType": [
+                " Ultimate",
+                "AoE ATK",
+                "120 energy"
+              ],
+              "skillContent": "Deals Fire DMG equal to 138/230/248% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated."
+            },
+            {
+              "name": "Victory Rush",
+              "skillType": [
+                " Talent",
+                "AoE ATK"
+              ],
+              "skillContent": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points). If Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to 70/140/154% of her ATK to all enemies, consuming all Charge points. At the start of the battle, Himeko gains 1 point of Charge."
+            },
+            {
+              "name": "Incomplete Combustion",
+              "skillType": [
+                " Technique",
+                "Impair"
+              ],
+              "skillContent": "After using Technique, creates a dimension that lasts for 15 second(s). After entering battle with enemies in the dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 dimension created by allies can exist at the same time."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Starfire",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "After using an attack, there is a 50% base chance to inflict Burn on enemies for 2 turn(s). When afflicted with Burn, enemies take Fire DoT equal to 30% of Himeko's ATK at the start of each turn.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "Fire DMG",
+                  "value": "+3.2%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Magma",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Skill deals 20% more DMG to enemies currently afflicted with Burn.",
+              "smallTraces": [
+                {
+                  "statName": "Fire DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Fire DMG",
+                  "value": "+4.8%"
+                }
+              ]
+            },
+            {
+              "name": "Benchmark",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "When current HP percentage is 80% or higher, CRIT Rate increases by 15%.",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "Fire DMG+3.2%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "Fire DMG+6.4%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "Hook",
+          "imageLink": "https://www.prydwen.gg/static/fb5d610b2d0eb7b35b461f4ae5166bca/e9a79/20_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -748,7 +1474,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -829,10 +1555,128 @@
                 "Serval"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Hehe! Don't Get Burned!",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Fire DMG equal to 50/100/110% of Hook's ATK to a single enemy."
+            },
+            {
+              "name": "Hey! Remember Hook?",
+              "skillType": [
+                "Enhanced Skill",
+                "Single Target, Blast"
+              ],
+              "skillContent": "Deals Fire DMG equal to 140/280/308% of Hook's ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 40/80/88% of Hook's ATK to enemies adjacent to it. When afflicted with Burn, enemies will take Fire DoT equal to 25/65/71% of Hook's ATK at the beginning of each turn."
+            },
+            {
+              "name": "Boom! Here Comes the Fire!",
+              "skillType": [
+                " Ultimate",
+                "Single Target",
+                "120 energy"
+              ],
+              "skillContent": "Deals Fire DMG equal to 240/400/432% of Hook's ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies."
+            },
+            {
+              "name": "Ha! Oil to the Flames!",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 50/100/110% of Hook's ATK and regenerates 5 extra Energy."
+            },
+            {
+              "name": "Ack! Look at This Mess!",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Innocence",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "CRIT DMG",
+                  "value": "+5.3%"
+                }
+              ]
+            },
+            {
+              "name": "Naivete",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "The chance to resist Crowd Control Debuffs increases by 35%.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Playing With Fire",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy.",
+              "smallTraces": [
+                {
+                  "statName": "CRIT DMG",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            }
           ]
         },
         {
           "name": "Trailblazer (Fire)",
+          "imageLink": "https://www.prydwen.gg/static/f281340b8caf10e5fa31e866d24db699/e9a79/2_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "Tanking & Utility",
@@ -994,6 +1838,122 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Ice-Breaking Light",
+              "skillType": [
+                "Enhanced Basic",
+                "Single Target, Blast"
+              ],
+              "skillContent": "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to 90/135/146% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to 36/54/58% of the Trailblazer's ATK to adjacent enemies."
+            },
+            {
+              "name": "Ever-Burning Amber",
+              "skillType": [
+                " Skill",
+                "Defense"
+              ],
+              "skillContent": "Increases the Trailblazer's DMG Reduction by 40/50/52% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s)."
+            },
+            {
+              "name": "War-Flaming Lance",
+              "skillType": [
+                " Ultimate",
+                "AoE ATK",
+                "120 energy"
+              ],
+              "skillContent": "Deals Fire DMG equal to 50/100/110% of the Trailblazer's ATK plus 75/150/165% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will."
+            },
+            {
+              "name": "Treasure of the Architects",
+              "skillType": [
+                " Talent"
+              ],
+              "skillContent": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4/6/6% of the Trailblazer's DEF plus 20/80/89. The Shield lasts for 2 turn(s)."
+            },
+            {
+              "name": "Call of the Guardian",
+              "skillType": [
+                " Technique",
+                "Defense"
+              ],
+              "skillContent": "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s)."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "The Strong Defend the Weak",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                }
+              ]
+            },
+            {
+              "name": "Unwavering Gallantry",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Action Beats Overthinking",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "When the Trailblazer is protected by a Shield at the beginning of the turn, increases ATK by 15% and regenerates 5 Energy until the action is over.",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+10%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "DEF+5%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "HP+4%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "DEF+7.5%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         }
       ]
@@ -1003,6 +1963,8 @@
       "characters": [
         {
           "name": "Gepard",
+          "imageLink": "https://www.prydwen.gg/static/cff01461a4e4266e9b213e4d73c6c5c3/e9a79/15_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "Hybrid Tank",
@@ -1084,7 +2046,7 @@
                 },
                 {
                   "title": "Link Rope:",
-                  "stat": "DEF% or Energy Regen Rate"
+                  "stat": "DEF% / Energy Regen Rate"
                 }
               ],
               "subStats": [
@@ -1156,10 +2118,129 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Fist of Conviction",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Ice DMG equal to 50/100/110% of Gepard's ATK to a single enemy."
+            },
+            {
+              "name": "Intimidating Strike",
+              "skillType": [
+                " Skill",
+                "Impair"
+              ],
+              "skillContent": "Deals Ice DMG equal to 100/200/220% of Gepard's ATK to a single enemy, with a 65% base chance to Freeze that enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Ice DoT equal to 30/60/66% of Gepard's ATK each turn."
+            },
+            {
+              "name": "Enduring Bulwark",
+              "skillType": [
+                " Ultimate",
+                "Defense ",
+                "100 energy"
+              ],
+              "skillContent": "Apply a Shield to all allies, absorbing DMG equal to 30/45/48% of Gepard's DEF plus 150/600/668 for 3 turn(s)."
+            },
+            {
+              "name": "Unyielding Will",
+              "skillType": [
+                " Talent",
+                "Restore"
+              ],
+              "skillContent": "When struck with a killing blow, instead of becoming incapacitated, Gepard's HP immediately restores 25/50/55% of his Max HP. This effect can only trigger once per battle."
+            },
+            {
+              "name": "Comradery",
+              "skillType": [
+                " Technique",
+                "Defense"
+              ],
+              "skillContent": "After using Gepard's Technique, when the next battle begins, applies a shield to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s)."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Integrity",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Gepard has a higher chance to be attacked by enemies.",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+3.2%"
+                }
+              ]
+            },
+            {
+              "name": "Commander",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "When Unyielding Will is triggered, Gepard's Energy will be restored to 100%.",
+              "smallTraces": [
+                {
+                  "statName": "Ice DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Fighting Spirit",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+6.4%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "Ice DMG+3.2%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "DEF+5%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "Ice DMG+4.8%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         },
         {
           "name": "Herta",
+          "imageLink": "https://www.prydwen.gg/static/183866486154f984ec92b8eedf87d7c6/e9a79/11_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -1184,7 +2265,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -1260,10 +2341,128 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "What Are You Looking At?",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Ice DMG equal to 50/100/110% of Herta's ATK to a single enemy."
+            },
+            {
+              "name": "One-Time Offer",
+              "skillType": [
+                " Skill"
+              ],
+              "skillContent": "Deals Ice DMG equal to 50/100/110% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%."
+            },
+            {
+              "name": "It's Magic, I Added Some Magic",
+              "skillType": [
+                " Ultimate",
+                "AoE ATK",
+                "110 energy"
+              ],
+              "skillContent": "Deals Ice DMG equal to 120/200/216% of Herta's ATK to all enemies."
+            },
+            {
+              "name": "Fine, I'll Do It Myself",
+              "skillType": [
+                " Talent",
+                "AoE ATK"
+              ],
+              "skillContent": "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25/40/43% of Herta's ATK to all enemies."
+            },
+            {
+              "name": "It Can Still Be Optimized",
+              "skillType": [
+                " Technique",
+                "Enhance"
+              ],
+              "skillContent": "After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Efficiency",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "When Skill is used, the DMG Boost effect on target enemies increases by an extra 25%.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+3.2%"
+                },
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+2.7%"
+                }
+              ]
+            },
+            {
+              "name": "Puppet",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "The chance to resist Crowd Control Debuffs increases by 35%.",
+              "smallTraces": [
+                {
+                  "statName": "Ice DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+4.8%"
+                }
+              ]
+            },
+            {
+              "name": "Icing",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "When Ultimate is used, deals 20% more DMG to Frozen enemies.",
+              "smallTraces": [
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+10%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "Ice DMG+3.2%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "Ice DMG+6.4%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "March 7th",
+          "imageLink": "https://www.prydwen.gg/static/63e84a0b75c737e0499f63f57b48c4d9/e9a79/3_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "Shielding",
@@ -1296,7 +2495,7 @@
                 },
                 {
                   "title": "Link Rope:",
-                  "stat": "DEF% or Energy Regen Rate"
+                  "stat": "DEF% / Energy Regen Rate"
                 }
               ],
               "subStats": [
@@ -1372,10 +2571,128 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Frigid Cold Arrow",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Ice DMG equal to 50/100/110% of March 7th's ATK to a single enemy."
+            },
+            {
+              "name": "The Power of Cuteness",
+              "skillType": [
+                " Skill",
+                "Defense"
+              ],
+              "skillContent": "Provides a single ally with a Shield that can absorb DMG equal to 38/57/61% of March 7th's DEF plus 190/760/846 for 3 turn(s). If the ally's HP is 30% of their Max HP or higher, greatly increases the chance of enemies attacking that ally."
+            },
+            {
+              "name": "Glacial Cascade",
+              "skillType": [
+                " Ultimate",
+                "AoE Attack",
+                "120 energy"
+              ],
+              "skillContent": "Deals Ice DMG equal to 90/150/162% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will recieve additional Ice DMG equal to 30/60/66% of March 7th's ATK at the beginning of each turn."
+            },
+            {
+              "name": "Girl Power",
+              "skillType": [
+                " Talent",
+                "Single Target"
+              ],
+              "skillContent": "After a shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 50/100/110% of her ATK. This effect can be triggered 2 time(s) each turn."
+            },
+            {
+              "name": "Freezing Beauty",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "Immediately attacks the enemy. After entering battle, there is a 100% base chance to Freeze a random enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Purify",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Skill removes 1 debuff from an ally.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+3.2%"
+                }
+              ]
+            },
+            {
+              "name": "Reinforce",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "The duration of the Shield generated from her Skill is extended for 1 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "Ice DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Ice Spell",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Increases Ultimate's base chance to Freeze enemies by 15%.",
+              "smallTraces": [
+                {
+                  "statName": "Ice DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+6.4%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+10%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "Ice DMG+3.2%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "Effect RES+4%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "DEF+7.5%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         },
         {
           "name": "Pela",
+          "imageLink": "https://www.prydwen.gg/static/b8f7e6d5e067908eea06f4286a3381fa/e9a79/17_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "Debuffer",
@@ -1478,10 +2795,129 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Frost Shot",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Ice DMG equal to 50/100/110% of Pela's ATK as to a single enemy."
+            },
+            {
+              "name": "Frostbite",
+              "skillType": [
+                " Skill",
+                "Impair"
+              ],
+              "skillContent": "Removes 1 buff(s) and deals Ice DMG equal to 105/210/231% of Pela's ATK to a single enemy."
+            },
+            {
+              "name": "Zone Suppression",
+              "skillType": [
+                " Ultimate",
+                "Impair ",
+                "110 energy"
+              ],
+              "skillContent": "Deals Ice DMG equal to 60/100/108% of Pela's ATK to all enemies, with a base chance of 100% to inflict the Exposed on all enemies. When Exposed, enemies' DEF is reduced by 30/40/42% for 2 turn(s).   "
+            },
+            {
+              "name": "Data Collecting",
+              "skillType": [
+                " Talent",
+                "Support"
+              ],
+              "skillContent": "If the enemy is debuffed after Pela's attack, Pela will restore 5/10/11 extra Energy. This effect can only be triggered 1 time per attack."
+            },
+            {
+              "name": "Preemptive Strike",
+              "skillType": [
+                " Technique",
+                "Preemptive Strike"
+              ],
+              "skillContent": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s)."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Bash",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Deals 20% more DMG to debuffed enemies.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+3.2%"
+                },
+                {
+                  "statName": "Effect HIT Rate",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "The Secret Strategy",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%.",
+              "smallTraces": [
+                {
+                  "statName": "Ice DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+4.8%"
+                }
+              ]
+            },
+            {
+              "name": "Wipe Out",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Using Skill to remove buff(s) increases the DMG of Pela's next attack by 20%.",
+              "smallTraces": [
+                {
+                  "statName": "Effect HIT Rate",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "Ice DMG+3.2%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "Ice DMG+6.4%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "Yanqing",
+          "imageLink": "https://www.prydwen.gg/static/15b2a8be678745987353625378ee8dba/e9a79/23_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -1507,7 +2943,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -1586,6 +3022,123 @@
                 "Serval"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Frost Thorn",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Ice DMG equal to 50/100/110% of Yanqing's ATK to a single enemy."
+            },
+            {
+              "name": "Darting Ironthorn",
+              "skillType": [
+                " Skill",
+                "Single Target"
+              ],
+              "skillContent": "Deals Ice DMG equal to 110/220/242% of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn."
+            },
+            {
+              "name": "Amidst the Raining Bliss",
+              "skillType": [
+                " Ultimate",
+                "Single Target",
+                "140 energy"
+              ],
+              "skillContent": "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra 30/50/54% for 1 turn. Afterwards, deals Ice DMG equal to 210/350/378% of Yanqing's ATK to a single enemy."
+            },
+            {
+              "name": "One With the Sword",
+              "skillType": [
+                " Talent",
+                "Single Target"
+              ],
+              "skillContent": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by 15/20/21% and his CRIT DMG increases by 15/30/33%. After Yanqing attacks an enemy, there is a 50/60/62% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 25/50/55% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 25/50/55% of Yanqing's ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear."
+            },
+            {
+              "name": "The One True Sword",
+              "skillType": [
+                " Technique",
+                "Enhance"
+              ],
+              "skillContent": "After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP is 50% or higher."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Icing on the Kick",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "When Yanqing attacks, deals additional Ice DMG equal to 30% of Yanqing's ATK to targets with Ice Weakness.",
+              "smallTraces": [
+                {
+                  "statName": "Ice DMG",
+                  "value": "+3.2%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Frost Favors the Brave",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "When Soulsteel Sync is active, Effect RES increases by 20%.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+4.8%"
+                }
+              ]
+            },
+            {
+              "name": "Gentle Blade",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Ice DMG",
+                  "value": "+6.4%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "HP+4%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "ATK+6%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         }
       ]
@@ -1595,6 +3148,8 @@
       "characters": [
         {
           "name": "Arlan",
+          "imageLink": "https://www.prydwen.gg/static/be47706d98abd13b49d629e53540c269/e9a79/9_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -1619,7 +3174,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -1699,10 +3254,128 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Lightning Rush",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Lightning DMG equal to 50/100/110% of Arlan's ATK to a single enemy."
+            },
+            {
+              "name": "Shackle Breaker",
+              "skillType": [
+                " Skill",
+                "Single Target"
+              ],
+              "skillContent": "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 120/240/264% of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."
+            },
+            {
+              "name": "Frenzied Punishment",
+              "skillType": [
+                " Ultimate",
+                "Blast",
+                "110 energy"
+              ],
+              "skillContent": "Deals Lightning DMG equal to 192/320/346% of Arlan's ATK to a single enemy and Lightning DMG equal to 96/160/173% of Arlan's ATK to enemies adjacent to it."
+            },
+            {
+              "name": "Pain and Anger",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of 36/72/79% more DMG."
+            },
+            {
+              "name": "Swift Harvest",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Revival",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "If the current HP percentage is 30% or lower when defeating an enemy, immediately restores HP equal to 20% of Max HP.",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Endurance",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "The chance to resist DoT Debuffs increases by 50%.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Repel",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Upon entering battle, if Arlan's HP is less than or equal to 50%, he can nullify all DMG received except for DoT until after he is attacked.",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            }
           ]
         },
         {
           "name": "Bailu",
+          "imageLink": "https://www.prydwen.gg/static/d7966d5a139339f40b379cffd4d13cf8/e9a79/24_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "Pure Healer",
@@ -1724,7 +3397,7 @@
               "mainStats": [
                 {
                   "title": "Body:",
-                  "stat": "HP% or Outgoing Healing"
+                  "stat": "HP% / Outgoing Healing"
                 },
                 {
                   "title": "Feet:",
@@ -1772,7 +3445,7 @@
               "mainStats": [
                 {
                   "title": "Body:",
-                  "stat": "HP% or Outgoing Healing"
+                  "stat": "HP% / Outgoing Healing"
                 },
                 {
                   "title": "Feet:",
@@ -1855,10 +3528,128 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Diagnostic Kick",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Lightning DMG equal to 50/100/110% of Bailu's ATK to a single enemy."
+            },
+            {
+              "name": "Singing Among Clouds",
+              "skillType": [
+                " Skill",
+                "Restore"
+              ],
+              "skillContent": "Heals a single ally for 8/11/12% of Bailu's Max HP plus 78/312/347. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."
+            },
+            {
+              "name": "Felicitous Thunderleap",
+              "skillType": [
+                " Ultimate",
+                "Restore",
+                "100 energy"
+              ],
+              "skillContent": "Heals all allies for 9/13/14% of Bailu's Max HP plus 90/360/401. Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack."
+            },
+            {
+              "name": "Gourdful of Elixir",
+              "skillType": [
+                " Talent"
+              ],
+              "skillContent": "After an ally with Invigoration is hit, restores the ally's HP for 4/5/6% of Bailu's Max HP plus 36/144/160. This effect can trigger 2 time(s). When an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for 12/18/19% of Bailu's Max HP plus 120/480/534 HP. This effect can be triggered 1 time per battle."
+            },
+            {
+              "name": "Saunter in the Rain",
+              "skillType": [
+                " Technique",
+                "Enhance"
+              ],
+              "skillContent": "After using Technique, at the start of the next battle, all allies are granted Invigoration for 2 turn(s)."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Qihuang Analects",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Vidyadhara Ichor Lines",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Invigoration can trigger 1 more time(s).",
+              "smallTraces": [
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "HP",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Aquatic Benediction",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Characters with Invigoration receive 10% less DMG.",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+10%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "HP+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "HP+8%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "Jing Yuan",
+          "imageLink": "https://www.prydwen.gg/static/23b51180bbbc53d0cebbbc3e192468b6/e9a79/22_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -1883,7 +3674,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -1974,18 +3765,142 @@
                 "Bailu"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Glistening Light",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Jing Yuan deals Lightning DMG equal to 50/100/110% of his ATK to a single enemy."
+            },
+            {
+              "name": "Rifting Zenith",
+              "skillType": [
+                " Skill",
+                "AoE"
+              ],
+              "skillContent": "Deals Lightning DMG equal to 50/100/110% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn."
+            },
+            {
+              "name": "Lightbringer",
+              "skillType": [
+                " Ultimate",
+                "AoE",
+                "130 energy"
+              ],
+              "skillContent": "Deals Lightning DMG equal to 120/200/216% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn."
+            },
+            {
+              "name": "Prana Extirpated",
+              "skillType": [
+                " Talent",
+                "Bounce"
+              ],
+              "skillContent": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to 33/66/70% of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the target enemy.The Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action."
+            },
+            {
+              "name": "Spirit Invocation",
+              "skillType": [
+                " Technique",
+                "Enhance"
+              ],
+              "skillContent": "After using Jing Yuan's Technique, at the start of the next battle, Lightning-Lord's Hits Per Action in the first turn increases by 3."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Battalia Crush",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn.",
+              "smallTraces": [
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+2.7%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                }
+              ]
+            },
+            {
+              "name": "Savant Providence",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "At the start of the battle, immediately regenerates 15 Energy.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "War Marshal",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "After using Skill, CRIT Rate increases by 10% for 2 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+5.3%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "ATK+8%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "Kafka",
+          "imageLink": "https://www.prydwen.gg/static/5eaaf9ec3518805762b5f5a69091d86c/e9a79/7_sm.png",
+          "rarity": "5★",
           "builds": [],
           "stats": [],
           "materials": [],
           "prosAndCons": [],
-          "bestTeam": []
+          "bestTeam": [],
+          "skills": [],
+          "majorTraces": [],
+          "minorTraces": []
         },
         {
           "name": "Serval",
+          "imageLink": "https://www.prydwen.gg/static/a0516274fafc8275ef10cbf994bf7508/e9a79/14_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -2010,7 +3925,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -2090,10 +4005,128 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Roaring Thunderclap",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Lightning DMG equal to 50/100/110% of Serval's ATK to a single enemy."
+            },
+            {
+              "name": "Lightning Flash",
+              "skillType": [
+                " Skill",
+                "Blast"
+              ],
+              "skillContent": "Deals Lightning DMG equal to 70/140/154% of Serval's ATK to a single enemy and Lightning DMG equal to 30/60/66% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies take Lightning DoT equal to 40/104/114% of Serval's ATK at the beginning of each turn."
+            },
+            {
+              "name": "Here Comes the Mechanical Fever",
+              "skillType": [
+                " Ultimate",
+                "AoE ATK ",
+                "100 energy"
+              ],
+              "skillContent": "Deals Lightning DMG equal to 108/180/194% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s)."
+            },
+            {
+              "name": "Galvanic Chords",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "After Serval attacks, deals additional Lightning DMG equal to 36/72/79% of Serval's ATK to all Shocked enemies."
+            },
+            {
+              "name": "Good Night, Belobog",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% base chance for all enemies to become Shocked for 3 turn(s). While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Rock 'n' Roll",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Skill has a 20% increased base chance to Shock enemies.",
+              "smallTraces": [
+                {
+                  "statName": "Effect HIT Rate",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+2.7%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "String Vibration",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "At the start of the battle, immediately regenerates 15 Energy.",
+              "smallTraces": [
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "Effect HIT Rate",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "CRIT Rate",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Mania",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Upon defeating an enemy, ATK increases by 20% for 2 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Effect HIT Rate",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "CRIT Rate+2.7%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "CRIT Rate+5.3%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "Tingyun",
+          "imageLink": "https://www.prydwen.gg/static/03bcec36a01c78f33767b7098f6fa1f0/e9a79/25_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "Support",
@@ -2118,7 +4151,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "Speed or ATK%"
+                  "stat": "Speed / ATK%"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -2198,6 +4231,123 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Dislodged",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Tingyun deals Lightning DMG equal to 50/100/110% of her ATK to a single enemy."
+            },
+            {
+              "name": "Soothing Melody",
+              "skillType": [
+                " Skill",
+                "Support"
+              ],
+              "skillContent": "Grants a single ally with Benediction to increase their ATK by 25/50/55%, up to 15/25/27% of Tingyun's current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 20/40/44% of that ally's ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."
+            },
+            {
+              "name": "Amidst the Rejoicing Clouds",
+              "skillType": [
+                " Ultimate",
+                "Support ",
+                "130 energy"
+              ],
+              "skillContent": "Regenerates 50 Energy for a single ally and increases the target's DMG by 20/50/56% for 2 turn(s)."
+            },
+            {
+              "name": "Violet Sparknado",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 30/60/66% of that ally's ATK to the same enemy."
+            },
+            {
+              "name": "Gentle Breeze",
+              "skillType": [
+                " Technique",
+                "Support"
+              ],
+              "skillContent": "Tingyun immediately regenerates 50 Energy upon using her Technique."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Nourished Joviality",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Tingyun's SPD increases by 20% for 1 turn after using Skill.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Knell Subdual",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Basic ATK DMG increases by 40%.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                }
+              ]
+            },
+            {
+              "name": "Jubilant Passage",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Tingyun immediately regenerates 5 Energy at the start of her turn.",
+              "smallTraces": [
+                {
+                  "statName": "Lightning DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+10%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "Lightning DMG+3.2%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "ATK+6%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         }
       ]
@@ -2207,14 +4357,21 @@
       "characters": [
         {
           "name": "Blade",
+          "imageLink": "https://www.prydwen.gg/static/9bcf0513fca5bda7c0cd2461e3d2d5d8/e9a79/28_smff.png",
+          "rarity": "5★",
           "builds": [],
           "stats": [],
           "materials": [],
           "prosAndCons": [],
-          "bestTeam": []
+          "bestTeam": [],
+          "skills": [],
+          "majorTraces": [],
+          "minorTraces": []
         },
         {
           "name": "Bronya",
+          "imageLink": "https://www.prydwen.gg/static/3c0e87556bcf541135c909a18f87ec6a/e9a79/12_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "Hypercarry Support",
@@ -2242,7 +4399,7 @@
                 },
                 {
                   "title": "Planar Sphere:",
-                  "stat": "DEF% or HP%"
+                  "stat": "DEF% / HP%"
                 },
                 {
                   "title": "Link Rope:",
@@ -2288,7 +4445,7 @@
                 },
                 {
                   "title": "Planar Sphere:",
-                  "stat": "DEF% or HP%"
+                  "stat": "DEF% / HP%"
                 },
                 {
                   "title": "Link Rope:",
@@ -2373,10 +4530,128 @@
                 "Seele"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Windrider Bullet",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Wind DMG equal to 50/100/110% of Bronya's ATK to a single enemy."
+            },
+            {
+              "name": "Combat Redeployment",
+              "skillType": [
+                " Skill",
+                "Support"
+              ],
+              "skillContent": "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 33/66/72% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again."
+            },
+            {
+              "name": "The Belobog March",
+              "skillType": [
+                " Ultimate",
+                "Support ",
+                "120 energy"
+              ],
+              "skillContent": "Increases the ATK of all allies by 33/55/59%, and increase their CRIT DMG equal to 12/16/17% of Bronya's CRIT DMG plus 12/20/21% for 2 turn(s)."
+            },
+            {
+              "name": "Leading the Way",
+              "skillType": [
+                " Talent",
+                "Support"
+              ],
+              "skillContent": "After using her Basic ATK, Bronya's next action will be Advanced Forward by 15/30/33%."
+            },
+            {
+              "name": "Banner of Command",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "After using Bronya's Technique, in the next battle, all allies' ATK increases by 15% for 2 turn(s)."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Command",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "The CRIT Rate for Basic ATK increases to 100%.",
+              "smallTraces": [
+                {
+                  "statName": "CRIT DMG",
+                  "value": "+5.3%"
+                },
+                {
+                  "statName": "Wind DMG",
+                  "value": "+3.2%"
+                }
+              ]
+            },
+            {
+              "name": "Battlefield",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "Wind DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "CRIT DMG",
+                  "value": "+8%"
+                }
+              ]
+            },
+            {
+              "name": "Military Might",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "When Bronya is on the field, all allies deal  10% more DMG.",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "CRIT DMG",
+                  "value": "+10.7%"
+                },
+                {
+                  "statName": "Wind DMG",
+                  "value": "+6.4%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "Wind DMG+3.2%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "Effect RES+4%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "Wind DMG+4.8%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         },
         {
           "name": "Dan Heng",
+          "imageLink": "https://www.prydwen.gg/static/857b2b1906680674db70981176f31474/e9a79/4_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -2402,7 +4677,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -2482,10 +4757,127 @@
                 "Serval"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Cloudlancer Art: North Wind",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deal Wind DMG equal to 50/100/110% of Dan Heng's ATK to a target enemy."
+            },
+            {
+              "name": "Cloudlancer Art: Torrent",
+              "skillType": [
+                " Skill",
+                "Single Target"
+              ],
+              "skillContent": "Deals Wind DMG equal to 130/260/286% of Dan Heng's ATK to a single enemy. On a CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12% for 2 turn(s)."
+            },
+            {
+              "name": "Ethereal Dream",
+              "skillType": [
+                " Ultimate",
+                "Single Target",
+                "100 energy"
+              ],
+              "skillContent": "Deals Wind DMG equal to 240/400/432% of Dan Heng's ATK to a single enemy. If the enemy is Slowed, Dan Heng's Ultimate's DMG multiplier increases by 72/120/130%."
+            },
+            {
+              "name": "Superiority of Reach",
+              "skillType": [
+                " Talent"
+              ],
+              "skillContent": "When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by 18/36/40%. This effect can be triggered again after 2 turn(s)."
+            },
+            {
+              "name": "Splitting Spearhead",
+              "skillType": [
+                " Technique"
+              ],
+              "skillContent": "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s)."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Hidden Dragon",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "Wind DMG",
+                  "value": "+3.2%"
+                }
+              ]
+            },
+            {
+              "name": "Faster Than Light",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "After launching an attack, there is a 50% fixed chance to increase own SPD by 20% for 2 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "Wind DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "High Gale",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Basic ATK deals 40% more damage to Slowed enemies.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                },
+                {
+                  "statName": "Wind DMG",
+                  "value": "+6.4%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "Wind DMG+3.2%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "DEF+5%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "Wind DMG+4.8%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         },
         {
           "name": "Sampo",
+          "imageLink": "https://www.prydwen.gg/static/0b758a75ced25955b92c9f055b71c87f/e9a79/19_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "Pure DoT",
@@ -2508,7 +4900,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "Speed or ATK%"
+                  "stat": "Speed / ATK%"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -2588,6 +4980,123 @@
                 "Serval"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Dazzling Blades",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Wind DMG equal to 50/100/110% of Sampo's ATK to a single enemy."
+            },
+            {
+              "name": "Ricochet Love",
+              "skillType": [
+                " Skill",
+                "Bounce"
+              ],
+              "skillContent": "Deals Wind DMG equal to 28/56/62% of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 28/56/62% of Sampo's ATK to a random enemy."
+            },
+            {
+              "name": "Surprise Present",
+              "skillType": [
+                " Ultimate",
+                "Impair ",
+                "120 energy"
+              ],
+              "skillContent": "Deals Wind DMG equal to 96/160/172% of Sampo's ATK to all enemies, with a 100% base chance to increase the target's DoT taken by 20/30/32% for 2 turn(s)."
+            },
+            {
+              "name": "Windtorn Dagger",
+              "skillType": [
+                " Talent",
+                "Impair"
+              ],
+              "skillContent": "Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 20/52/57% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."
+            },
+            {
+              "name": "Shining Bright",
+              "skillType": [
+                " Technique",
+                "Impair"
+              ],
+              "skillContent": "After Sampo uses Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team. When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Trap",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Extends the duration of Wind Shear caused by Talent by 1 turn.",
+              "smallTraces": [
+                {
+                  "statName": "Effect HIT Rate",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Defensive Position",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Using Ultimate additionally regenerates 10 Energy.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Effect HIT Rate",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Spice Up",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Enemies with Wind Shear effect deal 15% less damage to Sampo.",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Effect HIT Rate",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "ATK+8%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         }
       ]
@@ -2597,6 +5106,8 @@
       "characters": [
         {
           "name": "Qingque",
+          "imageLink": "https://www.prydwen.gg/static/0434369b1146936d32c51d5f265d17dc/e9a79/26_sm.png",
+          "rarity": "4★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -2621,7 +5132,7 @@
                 },
                 {
                   "title": "Feet:",
-                  "stat": "ATK% or Speed"
+                  "stat": "ATK% / Speed"
                 },
                 {
                   "title": "Planar Sphere:",
@@ -2700,10 +5211,128 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Cherry on Top!",
+              "skillType": [
+                "Enhanced Basic"
+              ],
+              "skillContent": "Deals Quantum DMG equal to 120/240/264% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 50/100/110% of Qingque's ATK to enemies adjacent to it. \"Cherry on Top!\" cannot recover Skill Points."
+            },
+            {
+              "name": "A Scoop of Moon",
+              "skillType": [
+                " Skill",
+                "Enhance"
+              ],
+              "skillContent": "Immediately draws 2 jade tile(s) and increases DMG by 14/28/31% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used."
+            },
+            {
+              "name": "A Quartet? Woo-hoo!",
+              "skillType": [
+                " Ultimate",
+                "AoE ATK",
+                "140 energy"
+              ],
+              "skillContent": "Deals Quantum DMG equal to 120/200/216% of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit."
+            },
+            {
+              "name": "Celestial Jade",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by 36/72/79%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\"  The \"Hidden Hand\" state ends after using \"Cherry on Top!\"."
+            },
+            {
+              "name": "Game Solitaire",
+              "skillType": [
+                " Technique",
+                "Support"
+              ],
+              "skillContent": "After using Technique, Qingque draws 2 jade tile(s) when the battle starts."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Tile Battle",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+              "smallTraces": [
+                {
+                  "statName": "Quantum DMG",
+                  "value": "+3.2%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "DEF",
+                  "value": "+5%"
+                }
+              ]
+            },
+            {
+              "name": "Bide Time",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Using the Skill increases DMG Boost effect of attacks by an extra 10%.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Quantum DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Winning Hand",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "Quantum DMG",
+                  "value": "+6.4%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "ATK+8%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "Seele",
+          "imageLink": "https://www.prydwen.gg/static/7bf27624888af02b16ed1ad2fdec10f2/e9a79/13_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "General DPS",
@@ -2817,15 +5446,137 @@
                 "Bailu"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Thwack",
+              "skillType": [
+                " Basic",
+                "Single Target"
+              ],
+              "skillContent": "Deals Quantum DMG equal to 50/100/110% of Seele's ATK to a single enemy."
+            },
+            {
+              "name": "Sheathed Blade",
+              "skillType": [
+                " Skill",
+                "Single Target"
+              ],
+              "skillContent": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 110/220/242% of Seele's ATK to a single enemy."
+            },
+            {
+              "name": "Butterfly Flurry",
+              "skillType": [
+                " Ultimate",
+                "Single Target",
+                "120 energy"
+              ],
+              "skillContent": "Seele enters the buffed state and deals Quantum DMG equal to 255/425/442% of Seele's ATK to a single enemy."
+            },
+            {
+              "name": "Resurgence",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by 40/80/88% for 1 turn(s). Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence.\""
+            },
+            {
+              "name": "Phantom Illusion",
+              "skillType": [
+                " Technique",
+                "Enhance"
+              ],
+              "skillContent": "After using her Technique, Seele gains Stealth for 20\n second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Nightshade",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+              "smallTraces": [
+                {
+                  "statName": "CRIT DMG",
+                  "value": "+5.3%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Lacerate",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "While Seele is in the buffed state, her Quantum RES PEN increases by 20%.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "CRIT DMG",
+                  "value": "+8%"
+                }
+              ]
+            },
+            {
+              "name": "Rippling Waves",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "After using a Basic ATK, Seele's next action will be Advanced Forward by 20%.",
+              "smallTraces": [
+                {
+                  "statName": "DEF",
+                  "value": "+7.5%"
+                },
+                {
+                  "statName": "CRIT DMG",
+                  "value": "+10.7%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+8%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "DEF+5%",
+              "unlockAt": "Unlocks at A3"
+            },
+            {
+              "name": "ATK+6%",
+              "unlockAt": "Unlocks at A5"
+            }
           ]
         },
         {
           "name": "Silver Wolf",
+          "imageLink": "https://www.prydwen.gg/static/46b350599121f6a83272a0635061d071/e9a79/8_sm.png",
+          "rarity": "5★",
           "builds": [],
           "stats": [],
           "materials": [],
           "prosAndCons": [],
-          "bestTeam": []
+          "bestTeam": [],
+          "skills": [],
+          "majorTraces": [],
+          "minorTraces": []
         }
       ]
     },
@@ -2834,14 +5585,21 @@
       "characters": [
         {
           "name": "Luocha",
+          "imageLink": "https://www.prydwen.gg/static/3db1e95f0be0c78a233f851614ff4620/e9a79/21_sm.png",
+          "rarity": "5★",
           "builds": [],
           "stats": [],
           "materials": [],
           "prosAndCons": [],
-          "bestTeam": []
+          "bestTeam": [],
+          "skills": [],
+          "majorTraces": [],
+          "minorTraces": []
         },
         {
           "name": "Welt",
+          "imageLink": "https://www.prydwen.gg/static/b24ce106a4a283e6cf1a077413fbf9d0/e9a79/6_sm.png",
+          "rarity": "5★",
           "builds": [
             {
               "tabName": "Hybrid Debuffer/DPS",
@@ -2875,7 +5633,7 @@
                 },
                 {
                   "title": "Link Rope:",
-                  "stat": "Energy Regen Rate or ATK%"
+                  "stat": "Energy Regen Rate / ATK%"
                 }
               ],
               "subStats": [
@@ -2996,15 +5754,137 @@
                 "Dan Heng"
               ]
             }
+          ],
+          "skills": [
+            {
+              "name": "Gravity Suppression",
+              "skillType": [
+                " Basic",
+                "Single Attack"
+              ],
+              "skillContent": "Deals Imaginary DMG equal to 50/100/110% of Welt's ATK to a single enemy."
+            },
+            {
+              "name": "Edge of the Void",
+              "skillType": [
+                " Skill",
+                "Bounce"
+              ],
+              "skillContent": "Deals Imaginary DMG equal to 36/72/79% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to 36/72/79% of Welt's ATK to a random enemy. On hit, there is a 65/75/77% base chance to reduce the enemy's SPD by 10% for 2 turn(s)."
+            },
+            {
+              "name": "Synthetic Black Hole",
+              "skillType": [
+                " Ultimate",
+                "AoE ATK",
+                "120 energy"
+              ],
+              "skillContent": "Deals Imaginary DMG equal to 90/150/162% of Welt's ATK to all enemies, with a 100% base chance for enemies hit by this ability to be Imprisoned for 1 turn. Imprisoned enemies have their actions delayed by 32/40/42% and SPD reduced by 10%."
+            },
+            {
+              "name": "Time Distortion",
+              "skillType": [
+                " Talent",
+                "Enhance"
+              ],
+              "skillContent": "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 30/60/66% of his ATK to the enemy."
+            },
+            {
+              "name": "Gravitational Imprisonment",
+              "skillType": [
+                " Technique",
+                "Impair"
+              ],
+              "skillContent": "After using Welt's Technique, create a dimension that lasts for 15 second(s). Enemies in this dimension have their Movement SPD reduced by 50%. After entering battle with enemies in the dimension, there is a 100% base chance to Imprison the enemies for 1 turn.\nImprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Only 1 dimension created by allies can exist at the same time."
+            }
+          ],
+          "majorTraces": [
+            {
+              "name": "Retribution",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A2"
+              ],
+              "skillContent": "When using Ultimate, there is a 100% base chance to increase the DMG received by the targets by 12% for 2 turn(s).",
+              "smallTraces": [
+                {
+                  "statName": "Imaginary DMG",
+                  "value": "+3.2%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+4%"
+                },
+                {
+                  "statName": "Effect RES",
+                  "value": "+4%"
+                }
+              ]
+            },
+            {
+              "name": "Judgment",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A4"
+              ],
+              "skillContent": "Using Welt's Ultimate additionally regenerates 10 Energy.",
+              "smallTraces": [
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Imaginary DMG",
+                  "value": "+4.8%"
+                },
+                {
+                  "statName": "ATK",
+                  "value": "+6%"
+                }
+              ]
+            },
+            {
+              "name": "Punishment",
+              "skillType": [
+                "Major trace",
+                "Unlocks at A6"
+              ],
+              "skillContent": "Deals 20% more DMG to enemies inflicted with Weakness Break.",
+              "smallTraces": [
+                {
+                  "statName": "Effect RES",
+                  "value": "+6%"
+                },
+                {
+                  "statName": "Imaginary DMG",
+                  "value": "+6.4%"
+                }
+              ]
+            }
+          ],
+          "minorTraces": [
+            {
+              "name": "ATK+4%",
+              "unlockAt": "Unlocks at Lv. 1"
+            },
+            {
+              "name": "ATK+8%",
+              "unlockAt": "Unlocks at Lv. 80"
+            }
           ]
         },
         {
           "name": "Yukong",
+          "imageLink": "https://www.prydwen.gg/static/f64318898539865f4a119bb65074bf3d/e9a79/32_sm.png",
+          "rarity": "4★",
           "builds": [],
           "stats": [],
           "materials": [],
           "prosAndCons": [],
-          "bestTeam": []
+          "bestTeam": [],
+          "skills": [],
+          "majorTraces": [],
+          "minorTraces": []
         }
       ]
     }

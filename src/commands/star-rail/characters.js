@@ -39,7 +39,7 @@ module.exports = {
             ? data.characters.map((item) => {
                 const characters = item.characters.map((character) => character.name).join(', ');
                 return {
-                  name: item.type,
+                  name: `${item.type} (${item.characters.length})`,
                   value: characters,
                 };
               })
@@ -53,7 +53,7 @@ module.exports = {
         )
         .setFooter({
           iconURL: 'https://cdn.discordapp.com/emojis/1108450926286618795',
-          text: `Last update: ${data.updateAt} (GMT +7)`,
+          text: `Last update: ${data.updateAt} (GMT +7)\nData is fetched from Prydwen`,
         });
 
       return await interaction.editReply({ embeds: [embed], ephemeral: true });

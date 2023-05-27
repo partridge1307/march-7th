@@ -33,11 +33,38 @@ module.exports = {
       if (!character.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 
       const embed = new EmbedBuilder()
-        .setTitle(`${character[0].name}'s Build`)
+        .setTitle(`${character[0].name} (${character[0].rarity})'s Build`)
         .setDescription(`This is just a reference. Feel free to build your own`)
+        .setThumbnail(`${character[0].imageLink}`)
+        .addFields([
+          {
+            name: `Pros and Cons`,
+            value: !character[0].prosAndCons.length
+              ? `Pros and Cons not available for this character`
+              : character[0].prosAndCons
+                  .map((rv) => `__${rv.title}__:\n${rv.content.map((c) => `-${c}`).join('\n')}`)
+                  .join('\n\n'),
+            inline: true,
+          },
+          {
+            name: `Best Team`,
+            value: !character[0].bestTeam.length
+              ? `Best team not available for this character`
+              : character[0].bestTeam
+                  .map(
+                    (team) => `__${team.title}__:\n${team.characters.map((chr) => chr).join('\n')}`
+                  )
+                  .join('\n\n'),
+            inline: true,
+          },
+          {
+            name: '\u200b',
+            value: '\u200b',
+          },
+        ])
         .addFields(
           !character[0].builds.length
-            ? { name: 'Build', value: 'Build are not available for this character' }
+            ? { name: 'Build', value: 'Build not available for this character' }
             : character[0].builds.map((build) => {
                 return {
                   name: build.tabName,
@@ -58,7 +85,7 @@ module.exports = {
         )
         .setFooter({
           iconURL: `https://cdn.discordapp.com/emojis/1108450926286618795`,
-          text: `Last update: ${data.updateAt} (GMT +7)`,
+          text: `Last update: ${data.updateAt} (GMT +7)\nData is fetched from Prydwen`,
         });
 
       return await interaction.editReply({ embeds: [embed], ephemeral: true });

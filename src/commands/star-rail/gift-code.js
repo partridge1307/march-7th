@@ -14,10 +14,10 @@ module.exports = {
 
       const embed = new EmbedBuilder()
         .setTitle(`Star Rail gift code`)
-        .setDescription(`${codes.map((c) => `${c.code}: ${c.rewards}`).join('\n')}`)
+        .setDescription(`${codes.map((c) => `\`${c.code}\`: ${c.rewards}`).join('\n')}`)
         .setFooter({
           iconURL: `https://cdn.discordapp.com/emojis/1108450926286618795`,
-          text: `Last update: ${data.updateAt} (GMT +7)`,
+          text: `Last update: ${data.updateAt} (GMT +7)\nData is fetched from Prydwen`,
         });
 
       return await interaction.reply({ embeds: [embed], ephemeral: true });

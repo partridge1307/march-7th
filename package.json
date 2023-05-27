@@ -11,10 +11,9 @@
   "author": "Partridge",
   "license": "ISC",
   "dependencies": {
-    "@discord-player/extractor": "^4.2.1",
+    "@discord-player/extractor": "^4.2.2",
     "@discordjs/opus": "^0.9.0",
     "@discordjs/voice": "^0.16.0",
-    "@distube/ytdl-core": "^4.11.9",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
@@ -27,7 +26,8 @@
     "lyrics-finder": "^21.7.0",
     "openai": "^3.2.1",
     "play-dl": "^1.9.6",
-    "puppeteer": "^20.1.2"
+    "puppeteer": "^20.1.2",
+    "yt-stream": "^1.4.7"
   },
   "devDependencies": {
     "eslint": "^8.40.0",

@@ -30,16 +30,17 @@ module.exports = {
       const relic = data.relics
         .map((rls) => rls.relics)
         .flat()
-        .filter((relic) => relic.name.trim().toLowerCase() === query.toLowerCase());
+        .filter((relic) => relic.name.trim().toLowerCase() === query.toLowerCase().trim());
 
       if (!relic.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 
       const embed = new EmbedBuilder()
         .setTitle(`${relic[0].name}'s Info`)
         .setDescription(`${relic[0].description}`)
+        .setThumbnail(`${relic[0].imageLink}`)
         .setFooter({
           iconURL: 'https://cdn.discordapp.com/emojis/1108450926286618795',
-          text: `Last update: ${data.updateAt} (GMT +7)`,
+          text: `Last update: ${data.updateAt} (GMT +7)\nData is fetched from Prydwen`,
         });
 
       return await interaction.editReply({ embeds: [embed], ephemeral: true });

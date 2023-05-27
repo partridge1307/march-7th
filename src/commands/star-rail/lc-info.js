@@ -30,20 +30,21 @@ module.exports = {
       const lightCones = data.lightCones
         .map((lcs) => lcs.lightCones)
         .flat()
-        .filter((lc) => lc.name.trim().toLowerCase() === query.toLowerCase());
+        .filter((lc) => lc.name.trim().toLowerCase() === query.toLowerCase().trim());
 
       if (!lightCones.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 
       const embed = new EmbedBuilder()
-        .setTitle(`${lightCones[0].name}'s Info`)
+        .setTitle(`${lightCones[0].name} (${lightCones[0].rarity})'s Info`)
         .setDescription(`${lightCones[0].description}`)
+        .setThumbnail(`${lightCones[0].imageLink}`)
         .addFields({
           name: `Level 80 stats`,
           value: lightCones[0].stats.map((stat) => stat).join('\n'),
         })
         .setFooter({
           iconURL: `https://cdn.discordapp.com/emojis/1108450926286618795`,
-          text: `Last update: ${data.updateAt} (GMT +7)`,
+          text: `Last update: ${data.updateAt} (GMT +7)\nData is fetched from Prydwen`,
         });
 
       return await interaction.editReply({ embeds: [embed], ephemeral: true });

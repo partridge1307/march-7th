@@ -1,5 +1,8 @@
+const { url } = require('@ffmpeg-installer/ffmpeg');
 const axios = require('axios');
 const cheerio = require('cheerio');
+
+const prydwen = 'https://www.prydwen.gg';
 
 exports.fetchCodeAndEvent = async () => {
   const data = (await axios.get('https://www.prydwen.gg/star-rail/')).data;
@@ -129,6 +132,19 @@ exports.fetchLightConeList = async (browser) => {
         await element.$('div.hsr-set-name > h4')
       ).evaluate((name) => name.textContent);
 
+      const imageLink = (
+        await (
+          await element.$('div.hsr-set-image > div > picture > source')
+        ).evaluate((img) => img.getAttribute('srcset'))
+      ).split(' ')[0];
+
+      const rarity = (
+        await (await (await element.$('div.hsr-set-image')).getProperty('className')).jsonValue()
+      )
+        .split(' ')[1]
+        .split('-')
+        .pop();
+
       const description = await (
         await element.$(
           'div.accordion > div.accordion-item > div.accordion-collapse >>> div.hsr-set-description > p'
@@ -147,7 +163,13 @@ exports.fetchLightConeList = async (browser) => {
         stats.push(stat);
       }
 
-      lightCones.push({ name, description, stats });
+      lightCones.push({
+        name,
+        imageLink: prydwen.concat(imageLink),
+        rarity: `${rarity}★`,
+        description,
+        stats,
+      });
     }
 
     datas.push({
@@ -183,13 +205,23 @@ exports.fetchRelicList = async (browser) => {
           await relic.$('div.hsr-set-name > h5.name')
         ).evaluate((r) => r.textContent);
 
+        const imageLink = (
+          await (
+            await relic.$('div.hsr-set-image > div > picture > source')
+          ).evaluate((img) => img.getAttribute('srcset'))
+        ).split(' ')[0];
+
         const relicDescElements = await relic.$$('div.hsr-set-description > div');
         const relicDescPromise = relicDescElements.map(
           async (relic) => await relic.evaluate((r) => r.textContent)
         );
         const relicDesc = await Promise.all(relicDescPromise);
 
-        relics.push({ name: relicName, description: relicDesc });
+        relics.push({
+          name: relicName,
+          imageLink: prydwen.concat(imageLink),
+          description: relicDesc,
+        });
       }
 
       datas.push({ type: attribute, relics });
@@ -400,6 +432,97 @@ const getBuilds = ($, tabs) => {
   // return data;
 };
 
+const getCharacterSkills = ($) => {
+  const skillElements = $('div#section-skills > div.skills > div > div.skill-box.hsr');
+
+  const skills = skillElements
+    .map(function (i, el) {
+      const nameSection = $(this).find('div.skill-header > div.name-section');
+      const name = nameSection.find('h5.name').text().trim();
+      const skillType = nameSection
+        .find('div.pills > span.skill-type')
+        .map(function (i, el) {
+          return $(this).text();
+        })
+        .toArray();
+
+      const skillContent = $(this)
+        .find('div.skill-content > div > p')
+        .text()
+        .replace(/[\r\n]+$/g, '');
+
+      return {
+        name,
+        skillType,
+        skillContent,
+      };
+    })
+    .toArray();
+
+  return skills;
+};
+
+const getCharacterMajorTraces = ($) => {
+  const traceElements = $('div#section-traces > div.skills.traces > div > div.skill-box.hsr');
+
+  const traces = traceElements
+    .map(function (i, el) {
+      const nameSection = $(this).find('div.skill-header > div.name-section');
+      const name = nameSection.find('h5.name').text();
+      const skillType = nameSection
+        .find('span.skill-type')
+        .map(function (i, el) {
+          return $(this).text();
+        })
+        .toArray();
+
+      const skillContent = $(this)
+        .find('div.skill-content > div.skill-description > div')
+        .text()
+        .replace(/[\r\n]+$/g, '');
+
+      const smallTraceEls = $(this).find('div.small-traces-inside > div');
+      const smallTraces = smallTraceEls
+        .map(function (i, el) {
+          const statName = $(this).find('div > div.hsr-stat > span').text();
+          const value = $(this).find('span.value').text();
+
+          return {
+            statName,
+            value,
+          };
+        })
+        .toArray();
+
+      return {
+        name,
+        skillType,
+        skillContent,
+        smallTraces,
+      };
+    })
+    .toArray();
+
+  return traces;
+};
+
+const getCharacterMinorTraces = ($) => {
+  const skillElements = $('div#section-traces > div.small-traces > div.single-trace');
+  const minorTraces = skillElements
+    .map(function (i, el) {
+      const name = $(this).find('div > div > span').text();
+      const unlockAt = $(this).find('p').text().trim();
+
+      return {
+        name,
+        unlockAt,
+      };
+    })
+    .toArray();
+
+  return minorTraces;
+};
+
 const getCharacterStat = ($) => {
   const statElements = $('div#section-stats > div.info-list').find('div.info-list-row');
 
@@ -527,6 +650,16 @@ const getCharacterBestTeam = ($) => {
   return bestTeam;
 };
 
+const getCharacterImageAndRarity = ($) => {
+  const url = 'https://www.prydwen.gg';
+  const header = $('div.content.hsr > div.character-header');
+
+  const image = header.find('div.avatar > div > picture > img').attr('data-src');
+  const rarity = header.find('div.hsr-rarity').text().trim();
+
+  return [url.concat(image), rarity];
+};
+
 exports.fetchCharacterDatas = async (datas) => {
   let list = [];
 
@@ -544,14 +677,23 @@ exports.fetchCharacterDatas = async (datas) => {
       const materials = getCharacterMaterial($);
       const prosAndCons = getCharacterProsAndCons($);
       const bestTeam = getCharacterBestTeam($);
+      const skills = getCharacterSkills($);
+      const majorTraces = getCharacterMajorTraces($);
+      const minorTraces = getCharacterMinorTraces($);
+      const [imageLink, rarity] = getCharacterImageAndRarity($);
 
       return {
         name,
+        imageLink,
+        rarity,
         builds,
         stats,
         materials,
         prosAndCons,
         bestTeam,
+        skills,
+        majorTraces,
+        minorTraces,
       };
     });
 
