@@ -36,13 +36,13 @@ exports.updateData = async () => {
   console.log('Starting update data');
   const start = Date.now();
   const browser = await puppeteer.launch({
-    //executablePath: '/usr/bin/chromium-browser',
+    executablePath: '/usr/bin/chromium-browser',
     args: [
       '--disable-gpu',
       '--disable-setuid-sandbox',
       '--no-sandbox',
       '--no-zygote',
-      //'--single-process',
+      '--single-process',
     ],
     headless: 'new',
   });
