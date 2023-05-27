@@ -35,7 +35,7 @@ module.exports = {
       if (!lightCones.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 
       const embed = new EmbedBuilder()
-        .setTitle(`${lightCones[0].name} (${lightCones[0].rarity})'s Info`)
+        .setTitle(`(${lightCones[0].rarity})${lightCones[0].name}'s Info`)
         .setDescription(`${lightCones[0].description}`)
         .setThumbnail(`${lightCones[0].imageLink}`)
         .addFields({

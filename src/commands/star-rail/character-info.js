@@ -39,12 +39,12 @@ module.exports = {
       if (!character.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 
       const embed = new EmbedBuilder()
-        .setTitle(`${character[0].name} (${character[0].rarity})'s Info`)
+        .setTitle(`(${character[0].rarity})${character[0].name}'s Info`)
         .setDescription(`Level 80`)
         .setThumbnail(`${character[0].imageLink}`)
         .addFields([
           {
-            name: `Skills\n(Shown for levels 1/10/12 | 1/6/7 for Basic)`,
+            name: `Skills`,
             value: !character[0].skills.length
               ? `Skills not available for this character`
               : character[0].skills

@@ -3,8 +3,9 @@ const { EmbedBuilder } = require('discord.js');
 
 const getBuild = (character, data) => {
   const embed = new EmbedBuilder()
-    .setTitle(`${character[0].name}'s Build`)
+    .setTitle(`(${character[0].rarity})${character[0].name}'s Build`)
     .setDescription(`This is just a reference. Feel free to build your own`)
+    .setThumbnail(`${character[0].imageLink}`)
     .addFields([
       {
         name: `Pros and Cons`,
@@ -60,10 +61,14 @@ const getBuild = (character, data) => {
 
 const getSkill = (character, data) => {
   const embed = new EmbedBuilder()
-    .setTitle(`${character[0].name}'s Skill`)
+    .setTitle(`(${character[0].rarity})${character[0].name}'s Skill`)
+    .setThumbnail(`${character[0].imageLink}`)
     .addFields(
       !character[0].skills.length
-        ? { name: 'Skills', value: `Skills not available for this character` }
+        ? {
+            name: 'Skills\n(Shown for levels 1/10/12 | 1/6/7 for Basic)',
+            value: `Skills not available for this character`,
+          }
         : character[0].skills.map((skill) => ({
             name: `${skill.name}\n(${skill.skillType.join(', ')})`,
             value: skill.skillContent,
@@ -79,7 +84,8 @@ const getSkill = (character, data) => {
 
 const getTrace = (character, data) => {
   const embed = new EmbedBuilder()
-    .setTitle(`${character[0].name}'s Trace`)
+    .setTitle(`(${character[0].rarity})${character[0].name}'s Trace`)
+    .setThumbnail(`${character[0].imageLink}`)
     .addFields(
       !character[0].majorTraces.length
         ? { name: 'Traces', value: `Traces not available for this character` }

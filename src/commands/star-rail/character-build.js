@@ -33,7 +33,7 @@ module.exports = {
       if (!character.length) throw new Error(`Could not found ${query}'s info. Please try again.`);
 
       const embed = new EmbedBuilder()
-        .setTitle(`${character[0].name} (${character[0].rarity})'s Build`)
+        .setTitle(`(${character[0].rarity})${character[0].name}'s Build`)
         .setDescription(`This is just a reference. Feel free to build your own`)
         .setThumbnail(`${character[0].imageLink}`)
         .addFields([
