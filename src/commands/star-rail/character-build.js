@@ -35,7 +35,9 @@ module.exports = {
 
       const embed = new EmbedBuilder()
         .setTitle(`(${character[0].rarity})${character[0].name}'s Build`)
-        .setDescription(`This is just a reference. Feel free to build your own`)
+        .setDescription(
+          `Element: \`${character[0].element}\`\nPath: \`${character[0].path}\`\n\nThis is just a reference. Feel free to build your own`
+        )
         .setThumbnail(`${character[0].imageLink}`)
         .addFields([
           {

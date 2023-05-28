@@ -41,7 +41,7 @@ module.exports = {
 
       const embed = new EmbedBuilder()
         .setTitle(`(${character[0].rarity})${character[0].name}'s Info`)
-        .setDescription(`Level 80`)
+        .setDescription(`Element: \`${character[0].element}\`\nPath: \`${character[0].path}\``)
         .setThumbnail(`${character[0].imageLink}`)
         .addFields([
           {

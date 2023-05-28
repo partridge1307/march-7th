@@ -4,7 +4,9 @@ const { EmbedBuilder } = require('discord.js');
 const getBuild = (character, data) => {
   const embed = new EmbedBuilder()
     .setTitle(`(${character[0].rarity})${character[0].name}'s Build`)
-    .setDescription(`This is just a reference. Feel free to build your own`)
+    .setDescription(
+      `Element: \`${character[0].element}\`\nPath: \`${character[0].path}\`\n\nThis is just a reference. Feel free to build your own`
+    )
     .setThumbnail(`${character[0].imageLink}`)
     .addFields([
       {
@@ -62,6 +64,7 @@ const getBuild = (character, data) => {
 const getSkill = (character, data) => {
   const embed = new EmbedBuilder()
     .setTitle(`(${character[0].rarity})${character[0].name}'s Skill`)
+    .setDescription(`Element: \`${character[0].element}\`\nPath: \`${character[0].path}\``)
     .setThumbnail(`${character[0].imageLink}`)
     .addFields(
       !character[0].skills.length
@@ -85,6 +88,7 @@ const getSkill = (character, data) => {
 const getTrace = (character, data) => {
   const embed = new EmbedBuilder()
     .setTitle(`(${character[0].rarity})${character[0].name}'s Trace`)
+    .setDescription(`Element: \`${character[0].element}\`\nPath: \`${character[0].path}\``)
     .setThumbnail(`${character[0].imageLink}`)
     .addFields(
       !character[0].majorTraces.length

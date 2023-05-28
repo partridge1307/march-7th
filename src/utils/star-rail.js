@@ -646,14 +646,16 @@ const getCharacterBestTeam = ($) => {
   return bestTeam;
 };
 
-const getCharacterImageAndRarity = ($) => {
+const getCharacterHeaderInfo = ($) => {
   const url = 'https://www.prydwen.gg';
   const header = $('div.content.hsr > div.character-header');
 
   const image = header.find('div.avatar > div > picture > img').attr('data-src');
   const rarity = header.find('div.hsr-rarity').text().trim();
+  const element = header.find('div.hsr-element > span').text().trim();
+  const path = header.find('div.hsr-path > span').text().trim();
 
-  return [url.concat(image), rarity];
+  return [url.concat(image), rarity, element, path];
 };
 
 exports.fetchCharacterDatas = async (datas) => {
@@ -676,12 +678,14 @@ exports.fetchCharacterDatas = async (datas) => {
       const skills = getCharacterSkills($);
       const majorTraces = getCharacterMajorTraces($);
       const minorTraces = getCharacterMinorTraces($);
-      const [imageLink, rarity] = getCharacterImageAndRarity($);
+      const [imageLink, rarity, element, path] = getCharacterHeaderInfo($);
 
       return {
         name,
         imageLink,
         rarity,
+        element,
+        path,
         builds,
         stats,
         materials,
