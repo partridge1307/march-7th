@@ -26,8 +26,7 @@
     "lyrics-finder": "^21.7.0",
     "openai": "^3.2.1",
     "play-dl": "^1.9.6",
-    "puppeteer": "^20.1.2",
-    "yt-stream": "^1.4.7"
+    "puppeteer": "^20.1.2"
   },
   "devDependencies": {
     "eslint": "^8.40.0",
