@@ -119,6 +119,7 @@ module.exports = {
     name: 'more-info',
   },
   async execute(client, interaction) {
+    await interaction.deferReply({ ephemeral: true });
     const selectedValue = interaction.values[0].split('-');
     try {
       const data = JSON.parse(await fs.readFile(`${__dirname}/../data/hsr-chars.json`, 'utf-8'));
@@ -138,10 +139,10 @@ module.exports = {
       } else if (selectedValue[1] === 'trace') {
         embed = getTrace(character, data);
       }
-      return await interaction.reply({ embeds: [embed], ephemeral: true });
+      return await interaction.editReply({ embeds: [embed], ephemeral: true });
     } catch (error) {
       console.log(error);
-      return await interaction.reply({ content: `${error.message}`, ephemeral: true });
+      return await interaction.editReply({ content: `${error.message}`, ephemeral: true });
     }
   },
 };

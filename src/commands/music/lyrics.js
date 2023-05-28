@@ -6,6 +6,7 @@ module.exports = {
   config: new SlashCommandBuilder()
     .setName('lyrics')
     .setDescription('Show lyrics of current track'),
+  category: 'music',
   async run(client, interaction) {
     const queue = useQueue(interaction.guild.id);
     if (!queue || !queue.isPlaying())

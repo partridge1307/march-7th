@@ -9,6 +9,7 @@ module.exports = {
     .addStringOption((opt) =>
       opt.setName('query').setDescription('Enter your song').setRequired(true).setAutocomplete(true)
     ),
+  category: 'music',
   async execute(client, interaction) {
     await interaction.deferReply({ ephemeral: true });
     const channel = interaction.member.voice.channel;

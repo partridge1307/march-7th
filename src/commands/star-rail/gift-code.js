@@ -5,6 +5,7 @@ module.exports = {
   config: new SlashCommandBuilder()
     .setName('gift-code')
     .setDescription('Show available code in HSR'),
+  category: 'star-rail',
   async execute(client, interaction) {
     try {
       const data = JSON.parse(await fs.readFile(`${__dirname}/../../data/hsr-utils.json`, 'utf-8'));

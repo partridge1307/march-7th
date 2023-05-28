@@ -3,6 +3,7 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
   config: new SlashCommandBuilder().setName('banners').setDescription('Show banners in HSR'),
+  category: 'star-rail',
   async execute(client, interaction) {
     try {
       const data = JSON.parse(await fs.readFile(`${__dirname}/../../data/hsr-utils.json`, 'utf-8'));

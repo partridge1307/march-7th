@@ -8,6 +8,7 @@ module.exports = {
     .addNumberOption((opt) =>
       opt.setName('track').setDescription("Enter track' position").setRequired(true)
     ),
+  category: 'music',
   async execute(client, interaction) {
     const queue = useQueue(interaction.guild.id);
     if (!queue)

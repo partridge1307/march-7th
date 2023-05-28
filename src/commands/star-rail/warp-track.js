@@ -13,6 +13,7 @@ module.exports = {
   config: new SlashCommandBuilder()
     .setName('warp-track')
     .setDescription('Track your HSR Warp History'),
+  category: 'star-rail',
   async execute(client, interaction) {
     const message = await interaction.deferReply({ ephemeral: true, fetchReply: true });
 

@@ -8,6 +8,7 @@ module.exports = {
     .addNumberOption((opt) =>
       opt.setName('page').setDescription('Enter number of page in queue').setMinValue(1)
     ),
+  category: 'music',
   async execute(client, interaction) {
     const queue = useQueue(interaction.guild.id);
     if (!queue || !queue.isPlaying())

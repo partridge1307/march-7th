@@ -3,6 +3,7 @@ const { useQueue } = require('discord-player');
 
 module.exports = {
   config: new SlashCommandBuilder().setName('skip').setDescription('Skip current track'),
+  category: 'music',
   async execute(client, interaction) {
     const queue = useQueue(interaction.guild.id);
     if (!queue || !queue.isPlaying()) {

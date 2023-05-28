@@ -132,11 +132,9 @@ exports.fetchLightConeList = async (browser) => {
         await element.$('div.hsr-set-name > h4')
       ).evaluate((name) => name.textContent);
 
-      const imageLink = (
-        await (
-          await element.$('div.hsr-set-image > div > picture > source')
-        ).evaluate((img) => img.getAttribute('srcset'))
-      ).split(' ')[0];
+      const imageLink = await (
+        await element.$('div.hsr-set-image >>> picture > img')
+      ).evaluate((img) => img.getAttribute('src'));
 
       const rarity = (
         await (await (await element.$('div.hsr-set-image')).getProperty('className')).jsonValue()
@@ -164,7 +162,7 @@ exports.fetchLightConeList = async (browser) => {
       }
 
       lightCones.push({
-        name,
+        name: name.trim(),
         imageLink: prydwen.concat(imageLink),
         rarity: `${rarity}★`,
         description,
@@ -205,11 +203,9 @@ exports.fetchRelicList = async (browser) => {
           await relic.$('div.hsr-set-name > h5.name')
         ).evaluate((r) => r.textContent);
 
-        const imageLink = (
-          await (
-            await relic.$('div.hsr-set-image > div > picture > source')
-          ).evaluate((img) => img.getAttribute('srcset'))
-        ).split(' ')[0];
+        const imageLink = await (
+          await relic.$('div.hsr-set-image >>> picture > img')
+        ).evaluate((img) => img.getAttribute('src'));
 
         const relicDescElements = await relic.$$('div.hsr-set-description > div');
         const relicDescPromise = relicDescElements.map(

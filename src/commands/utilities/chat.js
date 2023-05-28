@@ -14,6 +14,7 @@ module.exports = {
     .addStringOption((option) =>
       option.setName('content').setDescription('Enter your query').setRequired(true)
     ),
+  category: 'utilities',
   async execute(client, interaction) {
     await interaction.deferReply({ ephemeral: true });
     const input = interaction.options.getString('content');

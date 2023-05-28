@@ -12,6 +12,7 @@ module.exports = {
         .setRequired(true)
         .setAutocomplete(true)
     ),
+  category: 'star-rail',
   async execute(client, interaction) {
     let query = interaction.options.getString('relic');
     if (query.match(/[^A-Za-z0-9-: ]/g)) {

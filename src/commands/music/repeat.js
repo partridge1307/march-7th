@@ -18,6 +18,7 @@ module.exports = {
         .setRequired(true)
         .addChoices(...repeatModes)
     ),
+  category: 'music',
   async execute(client, interaction) {
     const queue = useQueue(interaction.guild.id);
     if (!queue || !queue.isPlaying()) {

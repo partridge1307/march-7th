@@ -3,6 +3,7 @@ const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
   config: new SlashCommandBuilder().setName('leave').setDescription('Disconnect the bot'),
+  category: 'music',
   async execute(client, interaction) {
     const queue = useQueue(interaction.guild.id);
     if (!queue)

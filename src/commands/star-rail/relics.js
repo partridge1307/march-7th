@@ -18,6 +18,7 @@ module.exports = {
         .setRequired(true)
         .addChoices(...types)
     ),
+  category: 'star-rail',
   async execute(client, interaction) {
     try {
       await interaction.deferReply({ ephemeral: true });

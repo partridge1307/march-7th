@@ -1,12 +1,12 @@
 {
-  "updateAt": "05/27/2023 6:42 PM",
+  "updateAt": "05/28/2023 6:23 PM",
   "relics": [
     {
       "type": "Relic Set",
       "relics": [
         {
           "name": "Band of Sizzling Thunder",
-          "imageLink": "https://www.prydwen.gg/static/ead9470f7f552c4c7831ca1cea95cda4/2fa99/set_9.webp",
+          "imageLink": "https://www.prydwen.gg/static/ead9470f7f552c4c7831ca1cea95cda4/15e42/set_9.png",
           "description": [
             "(2) Increases Lightning DMG by 10%.",
             "(4) When the wearer uses Skill, increases the wearer's ATK by 20% for 1 turn(s)."
@@ -14,7 +14,7 @@
         },
         {
           "name": "Champion of Streetwise Boxing",
-          "imageLink": "https://www.prydwen.gg/static/0c9857e8c7ae23ff8186946d2e7afe19/2fa99/set_5.webp",
+          "imageLink": "https://www.prydwen.gg/static/0c9857e8c7ae23ff8186946d2e7afe19/15e42/set_5.png",
           "description": [
             "(2) Increases Physical DMG by 10%.",
             "(4) After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
@@ -22,7 +22,7 @@
         },
         {
           "name": "Eagle of Twilight Line",
-          "imageLink": "https://www.prydwen.gg/static/03758175b0bf02f22fc03d3ce551b91c/2fa99/set_10.webp",
+          "imageLink": "https://www.prydwen.gg/static/03758175b0bf02f22fc03d3ce551b91c/15e42/set_10.png",
           "description": [
             "(2) Increases Wind DMG by 10%.\n\n",
             "(4) After the wearer uses Ultimate, their action is Advanced Forward by 25%."
@@ -30,7 +30,7 @@
         },
         {
           "name": "Firesmith of Lava-Forging",
-          "imageLink": "https://www.prydwen.gg/static/ee02bfdef54e27dae62e0988deea7979/2fa99/set_7.webp",
+          "imageLink": "https://www.prydwen.gg/static/ee02bfdef54e27dae62e0988deea7979/15e42/set_7.png",
           "description": [
             "(2) Increases Fire DMG by 10%.",
             "(4) Increases the wearer's Skill DMG by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for next attack."
@@ -38,7 +38,7 @@
         },
         {
           "name": "Genius of Brilliant Stars",
-          "imageLink": "https://www.prydwen.gg/static/98e6821f34d5ee03f3e3a05b3e5494d8/2fa99/set_8.webp",
+          "imageLink": "https://www.prydwen.gg/static/98e6821f34d5ee03f3e3a05b3e5494d8/15e42/set_8.png",
           "description": [
             "(2) Increases Quantum DMG by 10%.",
             "(4) When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF."
@@ -46,7 +46,7 @@
         },
         {
           "name": "Guard of Wuthering Snow",
-          "imageLink": "https://www.prydwen.gg/static/2738d9bb44d88faee371baaa2a137440/2fa99/set_6.webp",
+          "imageLink": "https://www.prydwen.gg/static/2738d9bb44d88faee371baaa2a137440/15e42/set_6.png",
           "description": [
             "(2) Reduces DMG taken by 8%.",
             "(4) At the beginning of the turn, if the wearer's HP is equal to or less than 50% of their Max HP, restores HP equal to 8% of their Max HP and regenerates 5 Energy."
@@ -54,7 +54,7 @@
         },
         {
           "name": "Hunter of Glacial Forest",
-          "imageLink": "https://www.prydwen.gg/static/7f76e03801821e9ecab1434f297534d6/2fa99/set_4.webp",
+          "imageLink": "https://www.prydwen.gg/static/7f76e03801821e9ecab1434f297534d6/15e42/set_4.png",
           "description": [
             "(2) Increases Ice DMG by 10%.",
             "(4) After the wearer unleashes their Ultimate, their CRIT DMG increases by 25% for 2 turn(s)."
@@ -62,7 +62,7 @@
         },
         {
           "name": "Knight of Purity Palace",
-          "imageLink": "https://www.prydwen.gg/static/df8616a2e787105462da7b45b2ef602e/2fa99/set_3.webp",
+          "imageLink": "https://www.prydwen.gg/static/df8616a2e787105462da7b45b2ef602e/15e42/set_3.png",
           "description": [
             "(2) Increases DEF by 15%.",
             "(4) Increases the max DMG that can be absorbed by the shield created by the wearer by 20%."
@@ -70,7 +70,7 @@
         },
         {
           "name": "Musketeer of Wild Wheat",
-          "imageLink": "https://www.prydwen.gg/static/bbdc9dc6dde0e2c2940294e66d36d885/2fa99/set_2.webp",
+          "imageLink": "https://www.prydwen.gg/static/bbdc9dc6dde0e2c2940294e66d36d885/15e42/set_2.png",
           "description": [
             "(2) ATK increases by 12%.",
             "(4) The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%."
@@ -78,7 +78,7 @@
         },
         {
           "name": "Passerby of Wandering Cloud",
-          "imageLink": "https://www.prydwen.gg/static/ad5de9248c33cde45510e03832494826/2fa99/set_1.webp",
+          "imageLink": "https://www.prydwen.gg/static/ad5de9248c33cde45510e03832494826/15e42/set_1.png",
           "description": [
             "(2) Increases Outgoing Healing by 10%.",
             "(4) At the beginning of the battle, immediately recovers 1 Skill Point."
@@ -86,7 +86,7 @@
         },
         {
           "name": "Thief of Shooting Meteor",
-          "imageLink": "https://www.prydwen.gg/static/1784ea4b4158a6e47b428e0fcc902438/2fa99/set_11.webp",
+          "imageLink": "https://www.prydwen.gg/static/1784ea4b4158a6e47b428e0fcc902438/15e42/set_11.png",
           "description": [
             "(2) Increases Break Effect by 16%",
             "(4) Increases the wearer's Break Effect by 16%. When the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy."
@@ -94,7 +94,7 @@
         },
         {
           "name": "Wastelander of Banditry Desert",
-          "imageLink": "https://www.prydwen.gg/static/af89f71092b0e8e1882a7d29659f0807/2fa99/set_12.webp",
+          "imageLink": "https://www.prydwen.gg/static/af89f71092b0e8e1882a7d29659f0807/15e42/set_12.png",
           "description": [
             "(2) Increases Imaginary DMG by 10%.",
             "(4) When attacking debuffed enemies, the wearer's CRIT Rate increases by 10%, and their CRIT DMG increases by 20% against Imprisoned enemies."
@@ -107,56 +107,56 @@
       "relics": [
         {
           "name": "Belobog of the Architects",
-          "imageLink": "https://www.prydwen.gg/static/c751401566c6af59aae1b290975afbd8/2fa99/planar_4.webp",
+          "imageLink": "https://www.prydwen.gg/static/c751401566c6af59aae1b290975afbd8/15e42/planar_4.png",
           "description": [
             "(2) Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF."
           ]
         },
         {
           "name": "Celestial Differentiator",
-          "imageLink": "https://www.prydwen.gg/static/344c33e7412a8c35f26c3bbb274554cf/2fa99/planar_5.webp",
+          "imageLink": "https://www.prydwen.gg/static/344c33e7412a8c35f26c3bbb274554cf/15e42/planar_5.png",
           "description": [
             "(2) Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack."
           ]
         },
         {
           "name": "Fleet of the Ageless",
-          "imageLink": "https://www.prydwen.gg/static/1acd76da714090b4450723cf81c6ddf2/2fa99/planar_2.webp",
+          "imageLink": "https://www.prydwen.gg/static/1acd76da714090b4450723cf81c6ddf2/15e42/planar_2.png",
           "description": [
             "(2) Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
           ]
         },
         {
           "name": "Inert Salsotto",
-          "imageLink": "https://www.prydwen.gg/static/161128cddd9e6a4b65b9a5972cbfacc5/2fa99/planar_6.webp",
+          "imageLink": "https://www.prydwen.gg/static/161128cddd9e6a4b65b9a5972cbfacc5/15e42/planar_6.png",
           "description": [
             "(2) Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%."
           ]
         },
         {
           "name": "Pan-Galactic Commercial Enterprise",
-          "imageLink": "https://www.prydwen.gg/static/4da5662d09f780439bdeca82bb0ea5b2/2fa99/planar_3.webp",
+          "imageLink": "https://www.prydwen.gg/static/4da5662d09f780439bdeca82bb0ea5b2/15e42/planar_3.png",
           "description": [
             "(2) Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum of 25%."
           ]
         },
         {
           "name": "Space Sealing Station",
-          "imageLink": "https://www.prydwen.gg/static/8b2d02850bd8aafbeb6c946cea020113/2fa99/planar_1.webp",
+          "imageLink": "https://www.prydwen.gg/static/8b2d02850bd8aafbeb6c946cea020113/15e42/planar_1.png",
           "description": [
             "(2) Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%."
           ]
         },
         {
           "name": "Sprightly Vonwacq",
-          "imageLink": "https://www.prydwen.gg/static/6d41619b621d9693530e36540e4a3a02/2fa99/planar_8.webp",
+          "imageLink": "https://www.prydwen.gg/static/6d41619b621d9693530e36540e4a3a02/15e42/planar_8.png",
           "description": [
             "(2) Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle."
           ]
         },
         {
           "name": "Talia: Kingdom of Banditry",
-          "imageLink": "https://www.prydwen.gg/static/bdb64774a8d30ab84af3e519718526b0/2fa99/planar_7.webp",
+          "imageLink": "https://www.prydwen.gg/static/bdb64774a8d30ab84af3e519718526b0/15e42/planar_7.png",
           "description": [
             "(2) Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break effect increases by an extra 20%."
           ]
