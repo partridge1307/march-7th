@@ -15,7 +15,12 @@ module.exports = {
 
       const embed = new EmbedBuilder()
         .setTitle(`Star Rail gift code`)
-        .setDescription(`${codes.map((c) => `\`${c.code}\`: ${c.rewards}`).join('\n')}`)
+        .setURL('https://hsr.hoyoverse.com/gift')
+        .setDescription(
+          `Click on title to redirect to Web redeem code\n\n${codes
+            .map((c) => `\`${c.code}\`: ${c.rewards}`)
+            .join('\n')}`
+        )
         .setFooter({
           iconURL: `https://cdn.discordapp.com/emojis/1108450926286618795`,
           text: `Last update: ${data.updateAt} (GMT +7)\nData is fetched from Prydwen`,
