@@ -2,7 +2,11 @@ const fs = require('fs');
 const dotenv = require('dotenv');
 const { Collection, Partials, Client, GatewayIntentBits } = require('discord.js');
 const { Player } = require('discord-player');
-const { SoundCloudExtractor, SpotifyExtractor } = require('@discord-player/extractor');
+const {
+  YouTubeExtractor,
+  SoundCloudExtractor,
+  SpotifyExtractor,
+} = require('@discord-player/extractor');
 const playdl = require('play-dl');
 
 dotenv.config({ path: './config.env' });
@@ -28,6 +32,7 @@ playdl.setToken({
 });
 
 (async () => {
+  await player.extractors.register(YouTubeExtractor, {});
   await player.extractors.register(SpotifyExtractor, {});
   await player.extractors.register(SoundCloudExtractor, {});
 })();

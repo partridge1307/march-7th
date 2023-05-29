@@ -1,3 +1,5 @@
+const notify = require('../../notify');
+
 module.exports = {
   config: {
     name: 'interactionCreate',
@@ -15,6 +17,7 @@ module.exports = {
 
       try {
         await command.execute(client, interaction);
+        await notify.execute(client, interaction);
       } catch (error) {
         console.log(error);
       }
@@ -28,6 +31,7 @@ module.exports = {
 
       try {
         await button.execute(client, interaction);
+        await notify.execute(client, interaction);
       } catch (error) {
         console.log(error);
       }
@@ -41,6 +45,7 @@ module.exports = {
 
       try {
         await modal.execute(client, interaction);
+        await notify.execute(client, interaction);
       } catch (error) {
         console.log(error);
       }
@@ -54,6 +59,7 @@ module.exports = {
 
       try {
         await stringSelectMenu.execute(client, interaction);
+        await notify.execute(client, interaction);
       } catch (error) {
         console.log(error);
       }
