@@ -1,10 +1,10 @@
 const { ActivityType } = require('discord.js');
 
 const activityOptions = [
-  { name: "Serval's hits", type: ActivityType.Listening },
-  { name: 'game with Himeko', type: ActivityType.Playing },
-  { name: "Astral's spaceship to get some food", type: ActivityType.Competing },
-  { name: 'Trailblazer', type: ActivityType.Watching },
+  { name: "2.0.0 Serval's hits", type: ActivityType.Listening },
+  { name: '2.0.0 game with Himeko', type: ActivityType.Playing },
+  { name: "2.0.0 Astral's spaceship to get some food", type: ActivityType.Competing },
+  { name: '2.0.0 Trailblazer', type: ActivityType.Watching },
 ];
 
 module.exports = {
@@ -20,7 +20,9 @@ module.exports = {
     channel.send(`Live on ${client.guilds.cache.size} servers`);
 
     client.user.setPresence({
-      activities: [{ name: "Astral's spaceship to get some food", type: ActivityType.Competing }],
+      activities: [
+        { name: "2.0.0 Astral's spaceship to get some food", type: ActivityType.Competing },
+      ],
       status: 'online',
     });
 
